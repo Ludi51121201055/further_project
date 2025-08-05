@@ -1,0 +1,4761 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 5.12.8
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QIcon>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
+#include <QtWidgets/QDoubleSpinBox>
+#include <QtWidgets/QFrame>
+#include <QtWidgets/QGroupBox>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QSlider>
+#include <QtWidgets/QSpacerItem>
+#include <QtWidgets/QSpinBox>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QTableWidget>
+#include <QtWidgets/QTextEdit>
+#include <QtWidgets/QTreeWidget>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QAction *reconnection;
+    QAction *quit;
+    QAction *chinese;
+    QAction *english;
+    QAction *manual;
+    QAction *about;
+    QAction *disconnection;
+    QWidget *centralwidget;
+    QHBoxLayout *horizontalLayout_34;
+    QVBoxLayout *verticalLayout_12;
+    QGroupBox *groupBox;
+    QVBoxLayout *verticalLayout;
+    QFrame *line_8;
+    QSpacerItem *verticalSpacer_3;
+    QHBoxLayout *horizontalLayout;
+    QLabel *label;
+    QSpacerItem *horizontalSpacer_133;
+    QPushButton *pushButton;
+    QSpacerItem *horizontalSpacer_135;
+    QSpacerItem *verticalSpacer_2;
+    QSpacerItem *verticalSpacer_39;
+    QGroupBox *groupBox_5;
+    QVBoxLayout *verticalLayout_3;
+    QFrame *line_10;
+    QTextEdit *textEdit_2;
+    QHBoxLayout *horizontalLayout_135;
+    QSpacerItem *horizontalSpacer_173;
+    QPushButton *pushButton_105;
+    QGroupBox *groupBox_2;
+    QVBoxLayout *verticalLayout_2;
+    QFrame *line_9;
+    QTextEdit *textEdit;
+    QHBoxLayout *horizontalLayout_134;
+    QSpacerItem *horizontalSpacer_172;
+    QPushButton *pushButton_104;
+    QTabWidget *tabWidget_Choose;
+    QWidget *tab_2;
+    QVBoxLayout *verticalLayout_52;
+    QGroupBox *groupBox_3;
+    QVBoxLayout *verticalLayout_23;
+    QFrame *line_6;
+    QHBoxLayout *horizontalLayout_97;
+    QHBoxLayout *horizontalLayout_144;
+    QGroupBox *groupBox_33;
+    QVBoxLayout *verticalLayout_73;
+    QFrame *line;
+    QHBoxLayout *horizontalLayout_270;
+    QHBoxLayout *horizontalLayout_98;
+    QLabel *label_63;
+    QComboBox *comboBox_5;
+    QSpacerItem *horizontalSpacer_119;
+    QTabWidget *tabWidget_11;
+    QWidget *tab_25;
+    QVBoxLayout *verticalLayout_161;
+    QGroupBox *groupBox_37;
+    QVBoxLayout *verticalLayout_162;
+    QGroupBox *groupBox_Downcct;
+    QVBoxLayout *verticalLayout_163;
+    QHBoxLayout *horizontalLayout_271;
+    QHBoxLayout *horizontalLayout_272;
+    QHBoxLayout *horizontalLayout_273;
+    QHBoxLayout *horizontalLayout_274;
+    QLabel *label_160;
+    QLabel *Downcctmin;
+    QSlider *Slider_Downcct;
+    QLabel *Downcctmax;
+    QHBoxLayout *horizontalLayout_275;
+    QPushButton *pushButton_150;
+    QSpinBox *spinBox_cct_2;
+    QPushButton *pushButton_151;
+    QGroupBox *groupBox_Downill;
+    QVBoxLayout *verticalLayout_164;
+    QHBoxLayout *horizontalLayout_276;
+    QHBoxLayout *horizontalLayout_277;
+    QHBoxLayout *horizontalLayout_278;
+    QHBoxLayout *horizontalLayout_279;
+    QLabel *label_161;
+    QLabel *Downillmin;
+    QSlider *Slider_Downill;
+    QLabel *Downillmax;
+    QHBoxLayout *horizontalLayout_280;
+    QPushButton *pushButton_152;
+    QSpinBox *spinBox_ill_2;
+    QPushButton *pushButton_153;
+    QWidget *tab_26;
+    QVBoxLayout *verticalLayout_167;
+    QGroupBox *groupBox_55;
+    QVBoxLayout *verticalLayout_168;
+    QVBoxLayout *verticalLayout_169;
+    QGroupBox *groupBox_Downnm1;
+    QVBoxLayout *verticalLayout_170;
+    QHBoxLayout *horizontalLayout_600;
+    QHBoxLayout *horizontalLayout_601;
+    QHBoxLayout *horizontalLayout_608;
+    QHBoxLayout *horizontalLayout_609;
+    QLabel *label_162;
+    QLabel *Down_nm1_min;
+    QSlider *Slider_nm1;
+    QLabel *Down_nm1_max;
+    QHBoxLayout *horizontalLayout_610;
+    QPushButton *pushButton_206;
+    QSpinBox *spinBox_nm1;
+    QPushButton *pushButton_207;
+    QGroupBox *groupBox_Downnm2;
+    QVBoxLayout *verticalLayout_171;
+    QHBoxLayout *horizontalLayout_611;
+    QHBoxLayout *horizontalLayout_612;
+    QHBoxLayout *horizontalLayout_613;
+    QHBoxLayout *horizontalLayout_614;
+    QLabel *label_192;
+    QLabel *Down_nm2_min;
+    QSlider *Slider_nm2;
+    QLabel *Down_nm2_max;
+    QHBoxLayout *horizontalLayout_615;
+    QPushButton *pushButton_208;
+    QSpinBox *spinBox_nm2;
+    QPushButton *pushButton_209;
+    QHBoxLayout *horizontalLayout_281;
+    QPushButton *pushButton_155;
+    QPushButton *pushButton_164;
+    QGroupBox *groupBox_32;
+    QVBoxLayout *verticalLayout_71;
+    QFrame *line_4;
+    QHBoxLayout *horizontalLayout_236;
+    QHBoxLayout *horizontalLayout_99;
+    QLabel *label_62;
+    QComboBox *comboBox;
+    QSpacerItem *horizontalSpacer_120;
+    QTabWidget *tabWidget_9;
+    QWidget *tab_20;
+    QVBoxLayout *verticalLayout_125;
+    QGroupBox *groupBox_28;
+    QVBoxLayout *verticalLayout_126;
+    QVBoxLayout *verticalLayout_132;
+    QGroupBox *groupBox_Upcct_2;
+    QVBoxLayout *verticalLayout_91;
+    QHBoxLayout *horizontalLayout_242;
+    QHBoxLayout *horizontalLayout_248;
+    QHBoxLayout *horizontalLayout_249;
+    QHBoxLayout *horizontalLayout_250;
+    QLabel *label_150;
+    QLabel *Upcctmin_2;
+    QSlider *Slider_cct;
+    QLabel *Upcctmax_2;
+    QHBoxLayout *horizontalLayout_251;
+    QPushButton *pushButton_134;
+    QSpinBox *spinBox_cct;
+    QPushButton *pushButton_135;
+    QGroupBox *groupBox_Upill_2;
+    QVBoxLayout *verticalLayout_117;
+    QHBoxLayout *horizontalLayout_252;
+    QHBoxLayout *horizontalLayout_253;
+    QHBoxLayout *horizontalLayout_254;
+    QHBoxLayout *horizontalLayout_255;
+    QLabel *label_155;
+    QLabel *Upillmin_2;
+    QSlider *Slider_ill;
+    QLabel *Upillmax_2;
+    QHBoxLayout *horizontalLayout_256;
+    QPushButton *pushButton_136;
+    QSpinBox *spinBox_ill;
+    QPushButton *pushButton_137;
+    QWidget *tab_21;
+    QVBoxLayout *verticalLayout_159;
+    QGroupBox *groupBox_40;
+    QVBoxLayout *verticalLayout_133;
+    QVBoxLayout *verticalLayout_139;
+    QGroupBox *groupBox_Upduty_5;
+    QVBoxLayout *verticalLayout_66;
+    QHBoxLayout *horizontalLayout_332;
+    QHBoxLayout *horizontalLayout_333;
+    QHBoxLayout *horizontalLayout_334;
+    QHBoxLayout *horizontalLayout_335;
+    QLabel *label_194;
+    QLabel *Up_fre_min_2;
+    QSlider *Slider_fre;
+    QLabel *Up_fre_max_2;
+    QHBoxLayout *horizontalLayout_336;
+    QPushButton *pushButton_167;
+    QDoubleSpinBox *doubleSpinBox_fre;
+    QPushButton *pushButton_168;
+    QHBoxLayout *horizontalLayout_337;
+    QHBoxLayout *horizontalLayout_338;
+    QHBoxLayout *horizontalLayout_339;
+    QHBoxLayout *horizontalLayout_357;
+    QLabel *label_217;
+    QLabel *Up_duty_min_2;
+    QSlider *Slider_Up_duty_2;
+    QLabel *Up_duty_max_2;
+    QHBoxLayout *horizontalLayout_358;
+    QPushButton *pushButton_185;
+    QSpinBox *spinBox_duty;
+    QPushButton *pushButton_192;
+    QHBoxLayout *horizontalLayout_315;
+    QHBoxLayout *horizontalLayout_328;
+    QHBoxLayout *horizontalLayout_329;
+    QHBoxLayout *horizontalLayout_330;
+    QLabel *label_157;
+    QLabel *Up_freill_min_2;
+    QSlider *Slider_Up_freill_2;
+    QLabel *Up_freill_max_2;
+    QHBoxLayout *horizontalLayout_331;
+    QPushButton *pushButton_138;
+    QSpinBox *spinBox_freill;
+    QPushButton *pushButton_139;
+    QHBoxLayout *horizontalLayout_257;
+    QPushButton *pushButton_140;
+    QPushButton *pushButton_141;
+    QGroupBox *groupBox_30;
+    QVBoxLayout *verticalLayout_24;
+    QFrame *line_5;
+    QSpacerItem *verticalSpacer_15;
+    QHBoxLayout *horizontalLayout_140;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *label_preheat;
+    QSpacerItem *verticalSpacer_35;
+    QHBoxLayout *horizontalLayout_353;
+    QHBoxLayout *horizontalLayout_354;
+    QHBoxLayout *horizontalLayout_361;
+    QHBoxLayout *horizontalLayout_377;
+    QLabel *label_159;
+    QLabel *Up_freill_min_4;
+    QSlider *Slider_Up_freill_4;
+    QLabel *Up_freill_max_4;
+    QHBoxLayout *horizontalLayout_378;
+    QPushButton *pushButton_161;
+    QSpinBox *spinBox_ill_sun;
+    QPushButton *pushButton_162;
+    QSpacerItem *verticalSpacer_40;
+    QHBoxLayout *horizontalLayout_282;
+    QPushButton *pushButton_163;
+    QPushButton *pushButton_171;
+    QSpacerItem *verticalSpacer_16;
+    QWidget *tab_4;
+    QHBoxLayout *horizontalLayout_107;
+    QGroupBox *groupBox_23;
+    QVBoxLayout *verticalLayout_47;
+    QFrame *line_11;
+    QGroupBox *groupBox_25;
+    QVBoxLayout *verticalLayout_46;
+    QTableWidget *tableWidget;
+    QHBoxLayout *horizontalLayout_108;
+    QLabel *label_69;
+    QPushButton *pushButton_101;
+    QSpinBox *spinBox_13;
+    QPushButton *pushButton_102;
+    QSpacerItem *horizontalSpacer_134;
+    QPushButton *pushButton_97;
+    QSpacerItem *horizontalSpacer_136;
+    QPushButton *pushButton_99;
+    QPushButton *pushButton_100;
+    QGroupBox *groupBox_24;
+    QVBoxLayout *verticalLayout_48;
+    QFrame *line_12;
+    QTreeWidget *treeWidget;
+    QHBoxLayout *horizontalLayout_106;
+    QSpacerItem *horizontalSpacer_132;
+    QPushButton *pushButton_96;
+    QPushButton *pushButton_103;
+    QMenuBar *menubar;
+    QMenu *menu;
+    QMenu *menu_2;
+    QMenu *language;
+    QMenu *menu_4;
+    QStatusBar *statusbar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(1242, 684);
+        MainWindow->setStyleSheet(QString::fromUtf8("\n"
+"    background-color:rgb(51,51,51);\n"
+"    color:rgb(255,255,255);"));
+        reconnection = new QAction(MainWindow);
+        reconnection->setObjectName(QString::fromUtf8("reconnection"));
+        quit = new QAction(MainWindow);
+        quit->setObjectName(QString::fromUtf8("quit"));
+        chinese = new QAction(MainWindow);
+        chinese->setObjectName(QString::fromUtf8("chinese"));
+        english = new QAction(MainWindow);
+        english->setObjectName(QString::fromUtf8("english"));
+        manual = new QAction(MainWindow);
+        manual->setObjectName(QString::fromUtf8("manual"));
+        about = new QAction(MainWindow);
+        about->setObjectName(QString::fromUtf8("about"));
+        disconnection = new QAction(MainWindow);
+        disconnection->setObjectName(QString::fromUtf8("disconnection"));
+        centralwidget = new QWidget(MainWindow);
+        centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
+        centralwidget->setStyleSheet(QString::fromUtf8(""));
+        horizontalLayout_34 = new QHBoxLayout(centralwidget);
+        horizontalLayout_34->setObjectName(QString::fromUtf8("horizontalLayout_34"));
+        verticalLayout_12 = new QVBoxLayout();
+        verticalLayout_12->setObjectName(QString::fromUtf8("verticalLayout_12"));
+        verticalLayout_12->setContentsMargins(-1, 60, -1, 11);
+        groupBox = new QGroupBox(centralwidget);
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        QFont font;
+        font.setFamily(QString::fromUtf8("Source Han Sans"));
+        font.setBold(true);
+        font.setWeight(75);
+        groupBox->setFont(font);
+        groupBox->setStyleSheet(QString::fromUtf8("/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab {\n"
+"   		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-size: 2px;\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 20px;\n"
+"    min-width: 60ex;\n"
+"    min-height: 8ex;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\351\200\211\344\270\255\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab:selected {\n"
+"    border: 0px solid;\n"
+"    border-bottom: 6px solid #2196F3;\n"
+"    background: rgb(50, 50, 50);\n"
+"    color: rgb(0, 168, 252);\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\346\234\254\350\272\253\347\224\237\346\225\210 */\n"
+"#tabWidget {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\346\240\217\347\224\237\346\225\210 */"
+                        "\n"
+"QTabWidget::tab-bar {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+" /* GroupBox\346\240\207\351\242\230\346\240\267\345\274\217 */\n"
+"    QGroupBox::title {\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"        color: white;\n"
+"	\n"
+"      \n"
+"       \n"
+"    }\n"
+"    \n"
+"    /* GroupBox\345\206\205\351\203\250\346\216\247\344\273\266\347\232\204\351\273\230\350\256\244\346\240\267\345\274\217 */\n"
+"    QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }\n"
+"    \n"
+"    /* \345\205\266\344\273\226\346\216\247\344\273\266\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"    QLabel, QLineEdit, QPushButton,QComboBox,QTextEdit,QDoubleSpinBox,QSpinBox,QRadioButton{\n"
+" color:white;\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px"
+                        ";\n"
+"    }\n"
+"\n"
+"\n"
+"\n"
+"/*horizontal \357\274\232\346\260\264\345\271\263QSlider*/\n"
+"QSlider::groove:horizontal {\n"
+"    border: 0px solid #bbb;\n"
+"    height: 20px;\n"
+"}\n"
+"\n"
+"/*1.\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::sub-page:horizontal {\n"
+" /*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(18, 142, 237);\n"
+" /*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:8px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:8px;\n"
+"/*width\345\234\250\350\277\231\351\207\214\346\227\240\346\225\210\357\274\214\344\270\215\345\206\231\345\215\263\345\217\257*/\n"
+"}\n"
+"\n"
+"/*2.\346\234\252\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256"
+                        "\241\345\217\202\346\225\260*/\n"
+"QSlider::add-page:horizontal {\n"
+"/*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(100, 100, 100);\n"
+"/*\345\244\226\347\216\257\345\244\247\345\260\2170px\345\260\261\346\230\257\344\270\215\346\230\276\347\244\272\357\274\214\351\273\230\350\256\244\344\271\237\346\230\2570*/\n"
+"border: 0px solid #777;\n"
+"/*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:9px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:9px;\n"
+"}\n"
+"\n"
+"/*3.\345\271\263\346\227\266\346\273\221\345\212\250\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal {\n"
+"    /*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"    background: rgb(193,204,208);\n"
+"    /*\346\273\221\345"
+                        "\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"    height: 25px;\n"
+"    /*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"    border: 1px solid rgb(193,204,208);\n"
+"     /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"    border-radius: 2px;\n"
+"     /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-top:6px;\n"
+"     /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-bottom:6px;\n"
+"}\n"
+"\n"
+"/*4.\346\211\213\345\212\250\346\213\211\345\212\250\346\227\266\346\230\276\347\244\272\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal:hover {\n"
+"/*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"background: rgb(193,204,208);\n"
+"/*\346\273\221\345\235\227\347\232\204\345\256"
+                        "\275\345\272\246*/\n"
+"    width: 20px;\n"
+"height: 28px;\n"
+"/*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"border: 1px solid rgb(193,204,208);\n"
+" /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 5px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:4px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:4px;\n"
+"}\n"
+"QSlider::groove:horizontal{\n"
+"    Margin:2px 0;\n"
+"}\n"
+""));
+        groupBox->setFlat(false);
+        verticalLayout = new QVBoxLayout(groupBox);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setContentsMargins(-1, 25, -1, -1);
+        line_8 = new QFrame(groupBox);
+        line_8->setObjectName(QString::fromUtf8("line_8"));
+        line_8->setMaximumSize(QSize(16777215, 1));
+        line_8->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_8->setFrameShape(QFrame::HLine);
+        line_8->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout->addWidget(line_8);
+
+        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer_3);
+
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        label = new QLabel(groupBox);
+        label->setObjectName(QString::fromUtf8("label"));
+        QFont font1;
+        font1.setFamily(QString::fromUtf8("Source Han Sans"));
+        font1.setBold(false);
+        font1.setWeight(50);
+        label->setFont(font1);
+        label->setStyleSheet(QString::fromUtf8("/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab {\n"
+"    background: transparent;\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-size: 2px;\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 20px;\n"
+"    min-width: 60ex;\n"
+"    min-height: 8ex;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\351\200\211\344\270\255\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab:selected {\n"
+"    border: 0px solid;\n"
+"    border-bottom: 6px solid #2196F3;\n"
+"    background: rgb(50, 50, 50);\n"
+"    color: rgb(0, 168, 252);\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\346\234\254\350\272\253\347\224\237\346\225\210 */\n"
+"#tabWidget {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\346\240\217\347\224\237\346\225\210 */\n"
+"QTabWidget::tab-ba"
+                        "r {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+" /* GroupBox\346\240\207\351\242\230\346\240\267\345\274\217 */\n"
+"    QGroupBox::title {\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"        color: white;\n"
+"      \n"
+"       \n"
+"    }\n"
+"    \n"
+"    /* GroupBox\345\206\205\351\203\250\346\216\247\344\273\266\347\232\204\351\273\230\350\256\244\346\240\267\345\274\217 */\n"
+"    QGroupBox {\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;\n"
+"    }\n"
+"    \n"
+"    /* \345\205\266\344\273\226\346\216\247\344\273\266\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"    QLabel, QLineEdit, QPushButton,QComboBox,QTextEdit,QDoubleSpinBox,QSpinBox,QRadioButton{\n"
+" color:white;\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;\n"
+" background-color: rgb(62,62,62);\n"
+"    }\n"
+"\n"
+"\n"
+"\n"
+"/*horizontal \357"
+                        "\274\232\346\260\264\345\271\263QSlider*/\n"
+"QSlider::groove:horizontal {\n"
+"    border: 0px solid #bbb;\n"
+"    height: 20px;\n"
+"}\n"
+"\n"
+"/*1.\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::sub-page:horizontal {\n"
+" /*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(18, 142, 237);\n"
+" /*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:8px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:8px;\n"
+"/*width\345\234\250\350\277\231\351\207\214\346\227\240\346\225\210\357\274\214\344\270\215\345\206\231\345\215\263\345\217\257*/\n"
+"}\n"
+"\n"
+"/*2.\346\234\252\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::a"
+                        "dd-page:horizontal {\n"
+"/*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(100, 100, 100);\n"
+"/*\345\244\226\347\216\257\345\244\247\345\260\2170px\345\260\261\346\230\257\344\270\215\346\230\276\347\244\272\357\274\214\351\273\230\350\256\244\344\271\237\346\230\2570*/\n"
+"border: 0px solid #777;\n"
+"/*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:9px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:9px;\n"
+"}\n"
+"\n"
+"/*3.\345\271\263\346\227\266\346\273\221\345\212\250\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal {\n"
+"    /*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"    background: rgb(193,204,208);\n"
+"    /*\346\273\221\345\235\227\347\232\204\345\256\275\345\272\246"
+                        "*/\n"
+"    width: 20px;\n"
+"    height: 25px;\n"
+"    /*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"    border: 1px solid rgb(193,204,208);\n"
+"     /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"    border-radius: 2px;\n"
+"     /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-top:6px;\n"
+"     /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-bottom:6px;\n"
+"}\n"
+"\n"
+"/*4.\346\211\213\345\212\250\346\213\211\345\212\250\346\227\266\346\230\276\347\244\272\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal:hover {\n"
+"/*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"background: rgb(193,204,208);\n"
+"/*\346\273\221\345\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+""
+                        "height: 28px;\n"
+"/*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"border: 1px solid rgb(193,204,208);\n"
+" /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 5px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:4px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:4px;\n"
+"}\n"
+"QSlider::groove:horizontal{\n"
+"    Margin:2px 0;\n"
+"}\n"
+""));
+
+        horizontalLayout->addWidget(label);
+
+        horizontalSpacer_133 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_133);
+
+        pushButton = new QPushButton(groupBox);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setMinimumSize(QSize(25, 25));
+        pushButton->setMaximumSize(QSize(25, 16777215));
+        pushButton->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: #FE3333;\n"
+"    background: rgb(51, 51, 51);\n"
+"    border-style: solid;\n"
+"\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"    padding: 4px 12px;\n"
+"    border-radius: 0px;\n"
+"    qproperty-icon: url(:/images/resources/disconnect.png);\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: #B3121D;\n"
+"    background: rgb(88, 88, 88);\n"
+"    border-color: white;  /* \346\202\254\345\201\234\346\227\266\346\230\276\347\244\272\347\231\275\350\211\262\350\276\271\346\241\206 */\n"
+"    qproperty-icon: url(:/images/resources/disconnect.png);\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(55, 55, 55);\n"
+"    padding-top: 5px;  /* \346\250\241\346\213\237\346\214\211\344\270\213\346\225\210\346\236\234 */\n"
+"    padding-bottom: 3px;\n"
+"    qproperty-icon: url(:/images/resources/disconnect2.png);\n"
+"}\n"
+"\n"
+"QToolTip {\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    color: black;\n"
+"    border: 1p"
+                        "x solid #34495e;\n"
+"    padding: 6px 12px;\n"
+"    font-size: 12px;\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    opacity: 90%;\n"
+"}"));
+        pushButton->setCheckable(true);
+
+        horizontalLayout->addWidget(pushButton);
+
+        horizontalSpacer_135 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_135);
+
+
+        verticalLayout->addLayout(horizontalLayout);
+
+        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout->addItem(verticalSpacer_2);
+
+        verticalLayout->setStretch(2, 2);
+
+        verticalLayout_12->addWidget(groupBox);
+
+        verticalSpacer_39 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_12->addItem(verticalSpacer_39);
+
+        groupBox_5 = new QGroupBox(centralwidget);
+        groupBox_5->setObjectName(QString::fromUtf8("groupBox_5"));
+        groupBox_5->setFont(font);
+        groupBox_5->setStyleSheet(QString::fromUtf8("/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab {\n"
+"   		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-size: 2px;\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 20px;\n"
+"    min-width: 60ex;\n"
+"    min-height: 8ex;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\351\200\211\344\270\255\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab:selected {\n"
+"    border: 0px solid;\n"
+"    border-bottom: 6px solid #2196F3;\n"
+"    background: rgb(50, 50, 50);\n"
+"    color: rgb(0, 168, 252);\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\346\234\254\350\272\253\347\224\237\346\225\210 */\n"
+"#tabWidget {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\346\240\217\347\224\237\346\225\210 */"
+                        "\n"
+"QTabWidget::tab-bar {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+" /* GroupBox\346\240\207\351\242\230\346\240\267\345\274\217 */\n"
+"    QGroupBox::title {\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"        color: white;\n"
+"		\n"
+"      \n"
+"       \n"
+"    }\n"
+"    \n"
+"    /* GroupBox\345\206\205\351\203\250\346\216\247\344\273\266\347\232\204\351\273\230\350\256\244\346\240\267\345\274\217 */\n"
+"    QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }\n"
+"    \n"
+"    /* \345\205\266\344\273\226\346\216\247\344\273\266\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"    QLabel, QLineEdit, QPushButton,QComboBox,QTextEdit,QDoubleSpinBox,QSpinBox,QRadioButton{\n"
+" color:white;\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14p"
+                        "x;\n"
+"    }\n"
+"\n"
+"\n"
+"\n"
+"/*horizontal \357\274\232\346\260\264\345\271\263QSlider*/\n"
+"QSlider::groove:horizontal {\n"
+"    border: 0px solid #bbb;\n"
+"    height: 20px;\n"
+"}\n"
+"\n"
+"/*1.\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::sub-page:horizontal {\n"
+" /*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(18, 142, 237);\n"
+" /*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:8px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:8px;\n"
+"/*width\345\234\250\350\277\231\351\207\214\346\227\240\346\225\210\357\274\214\344\270\215\345\206\231\345\215\263\345\217\257*/\n"
+"}\n"
+"\n"
+"/*2.\346\234\252\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350"
+                        "\256\241\345\217\202\346\225\260*/\n"
+"QSlider::add-page:horizontal {\n"
+"/*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(100, 100, 100);\n"
+"/*\345\244\226\347\216\257\345\244\247\345\260\2170px\345\260\261\346\230\257\344\270\215\346\230\276\347\244\272\357\274\214\351\273\230\350\256\244\344\271\237\346\230\2570*/\n"
+"border: 0px solid #777;\n"
+"/*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:9px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:9px;\n"
+"}\n"
+"\n"
+"/*3.\345\271\263\346\227\266\346\273\221\345\212\250\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal {\n"
+"    /*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"    background: rgb(193,204,208);\n"
+"    /*\346\273\221"
+                        "\345\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"    height: 25px;\n"
+"    /*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"    border: 1px solid rgb(193,204,208);\n"
+"     /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"    border-radius: 2px;\n"
+"     /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-top:6px;\n"
+"     /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-bottom:6px;\n"
+"}\n"
+"\n"
+"/*4.\346\211\213\345\212\250\346\213\211\345\212\250\346\227\266\346\230\276\347\244\272\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal:hover {\n"
+"/*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"background: rgb(193,204,208);\n"
+"/*\346\273\221\345\235\227\347\232\204\345"
+                        "\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"height: 28px;\n"
+"/*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"border: 1px solid rgb(193,204,208);\n"
+" /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 5px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:4px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:4px;\n"
+"}\n"
+"QSlider::groove:horizontal{\n"
+"    Margin:2px 0;\n"
+"}\n"
+""));
+        groupBox_5->setFlat(false);
+        verticalLayout_3 = new QVBoxLayout(groupBox_5);
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
+        verticalLayout_3->setContentsMargins(-1, 30, -1, -1);
+        line_10 = new QFrame(groupBox_5);
+        line_10->setObjectName(QString::fromUtf8("line_10"));
+        line_10->setMaximumSize(QSize(16777215, 1));
+        line_10->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_10->setFrameShape(QFrame::HLine);
+        line_10->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_3->addWidget(line_10);
+
+        textEdit_2 = new QTextEdit(groupBox_5);
+        textEdit_2->setObjectName(QString::fromUtf8("textEdit_2"));
+        textEdit_2->setStyleSheet(QString::fromUtf8("QTextEdit {\n"
+"    /* \345\237\272\347\241\200\346\240\267\345\274\217 */\n"
+"    background-color: rgb(64, 64, 64);  /* \346\265\205\347\201\260\350\211\262\350\203\214\346\231\257 *            /* \346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"    border: 1px solid rgb(77, 77, 77); /* \347\201\260\350\211\262\350\276\271\346\241\206 */\n"
+" \n"
+"    padding: 6px 8px;                     /* \345\206\205\350\276\271\350\267\235 */\n"
+"    selection-background-color: rgb(76, 132, 255); /* \351\200\211\344\270\255\346\226\207\346\234\254\350\203\214\346\231\257 */\n"
+"    selection-color: white;               /* \351\200\211\344\270\255\346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"    font-family: \"Segoe UI\", \"Microsoft YaHei\", sans-serif; /* \345\255\227\344\275\223 */\n"
+"    font-size: 14px;                      /* \345\255\227\345\217\267 */\n"
+"}\n"
+"\n"
+"QTextEdit:hover {\n"
+"    border-color: rgb(100, 100, 100);    /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217"
+                        "\230\346\267\261 */\n"
+"}\n"
+"\n"
+"QTextEdit:focus {\n"
+"   border-color: rgb(100, 100, 100);    /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217\230\346\267\261 */\n"
+"\n"
+"    outline: none;                       /* \347\247\273\351\231\244\351\273\230\350\256\244\347\204\246\347\202\271\350\231\232\347\272\277 */\n"
+"}\n"
+"\n"
+"\n"
+" /* \345\236\202\347\233\264\346\273\232\345\212\250\346\235\241\346\240\267\345\274\217 */\n"
+"QScrollBar:vertical {\n"
+"    background: transparent;\n"
+"    width: 4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical:hover {\n"
+"    background: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:vertical,\n"
+"QScrollBar::sub-line:vertical {\n"
+"    height: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:vertical,\n"
+"QScrollBar::sub-page:vertical {\n"
+"    backgrou"
+                        "nd: transparent;\n"
+"}\n"
+"\n"
+"/* \346\260\264\345\271\263\346\273\232\345\212\250\346\235\241\346\240\267\345\274\217 */\n"
+"QScrollBar:horizontal {\n"
+"    background: transparent;\n"
+"    height:4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-width: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal:hover {\n"
+"    background: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:horizontal,\n"
+"QScrollBar::sub-line:horizontal {\n"
+"    width: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:horizontal,\n"
+"QScrollBar::sub-page:horizontal {\n"
+"    background: transparent;\n"
+"}"));
+        textEdit_2->setReadOnly(true);
+
+        verticalLayout_3->addWidget(textEdit_2);
+
+        horizontalLayout_135 = new QHBoxLayout();
+        horizontalLayout_135->setObjectName(QString::fromUtf8("horizontalLayout_135"));
+        horizontalSpacer_173 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_135->addItem(horizontalSpacer_173);
+
+        pushButton_105 = new QPushButton(groupBox_5);
+        pushButton_105->setObjectName(QString::fromUtf8("pushButton_105"));
+        pushButton_105->setMinimumSize(QSize(120, 30));
+        pushButton_105->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/images/resources/\345\210\240\351\231\2442.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_105->setIcon(icon);
+
+        horizontalLayout_135->addWidget(pushButton_105);
+
+
+        verticalLayout_3->addLayout(horizontalLayout_135);
+
+
+        verticalLayout_12->addWidget(groupBox_5);
+
+        groupBox_2 = new QGroupBox(centralwidget);
+        groupBox_2->setObjectName(QString::fromUtf8("groupBox_2"));
+        groupBox_2->setFont(font);
+        groupBox_2->setStyleSheet(QString::fromUtf8("/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab {\n"
+"   		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-size: 2px;\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 20px;\n"
+"    min-width: 60ex;\n"
+"    min-height: 8ex;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\351\200\211\344\270\255\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab:selected {\n"
+"    border: 0px solid;\n"
+"    border-bottom: 6px solid #2196F3;\n"
+"    background: rgb(50, 50, 50);\n"
+"    color: rgb(0, 168, 252);\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\346\234\254\350\272\253\347\224\237\346\225\210 */\n"
+"#tabWidget {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\346\240\217\347\224\237\346\225\210 */"
+                        "\n"
+"QTabWidget::tab-bar {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+" /* GroupBox\346\240\207\351\242\230\346\240\267\345\274\217 */\n"
+"    QGroupBox::title {\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"        color: white;\n"
+"		\n"
+"      \n"
+"       \n"
+"    }\n"
+"    \n"
+"    /* GroupBox\345\206\205\351\203\250\346\216\247\344\273\266\347\232\204\351\273\230\350\256\244\346\240\267\345\274\217 */\n"
+"    QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }\n"
+"    \n"
+"    /* \345\205\266\344\273\226\346\216\247\344\273\266\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"    QLabel, QLineEdit, QPushButton,QComboBox,QTextEdit,QDoubleSpinBox,QSpinBox,QRadioButton{\n"
+" color:white;\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14p"
+                        "x;\n"
+"    }\n"
+"\n"
+"\n"
+"\n"
+"/*horizontal \357\274\232\346\260\264\345\271\263QSlider*/\n"
+"QSlider::groove:horizontal {\n"
+"    border: 0px solid #bbb;\n"
+"    height: 20px;\n"
+"}\n"
+"\n"
+"/*1.\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::sub-page:horizontal {\n"
+" /*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(18, 142, 237);\n"
+" /*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:8px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:8px;\n"
+"/*width\345\234\250\350\277\231\351\207\214\346\227\240\346\225\210\357\274\214\344\270\215\345\206\231\345\215\263\345\217\257*/\n"
+"}\n"
+"\n"
+"/*2.\346\234\252\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350"
+                        "\256\241\345\217\202\346\225\260*/\n"
+"QSlider::add-page:horizontal {\n"
+"/*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(100, 100, 100);\n"
+"/*\345\244\226\347\216\257\345\244\247\345\260\2170px\345\260\261\346\230\257\344\270\215\346\230\276\347\244\272\357\274\214\351\273\230\350\256\244\344\271\237\346\230\2570*/\n"
+"border: 0px solid #777;\n"
+"/*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:9px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:9px;\n"
+"}\n"
+"\n"
+"/*3.\345\271\263\346\227\266\346\273\221\345\212\250\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal {\n"
+"    /*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"    background: rgb(193,204,208);\n"
+"    /*\346\273\221"
+                        "\345\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"    height: 25px;\n"
+"    /*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"    border: 1px solid rgb(193,204,208);\n"
+"     /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"    border-radius: 2px;\n"
+"     /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-top:6px;\n"
+"     /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-bottom:6px;\n"
+"}\n"
+"\n"
+"/*4.\346\211\213\345\212\250\346\213\211\345\212\250\346\227\266\346\230\276\347\244\272\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal:hover {\n"
+"/*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"background: rgb(193,204,208);\n"
+"/*\346\273\221\345\235\227\347\232\204\345"
+                        "\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"height: 28px;\n"
+"/*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"border: 1px solid rgb(193,204,208);\n"
+" /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 5px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:4px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:4px;\n"
+"}\n"
+"QSlider::groove:horizontal{\n"
+"    Margin:2px 0;\n"
+"}\n"
+""));
+        groupBox_2->setFlat(false);
+        verticalLayout_2 = new QVBoxLayout(groupBox_2);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(-1, 30, -1, -1);
+        line_9 = new QFrame(groupBox_2);
+        line_9->setObjectName(QString::fromUtf8("line_9"));
+        line_9->setMaximumSize(QSize(16777215, 1));
+        line_9->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_9->setFrameShape(QFrame::HLine);
+        line_9->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_2->addWidget(line_9);
+
+        textEdit = new QTextEdit(groupBox_2);
+        textEdit->setObjectName(QString::fromUtf8("textEdit"));
+        textEdit->setStyleSheet(QString::fromUtf8("QTextEdit {\n"
+"    /* \345\237\272\347\241\200\346\240\267\345\274\217 */\n"
+"    background-color: rgb(64, 64, 64);  /* \346\265\205\347\201\260\350\211\262\350\203\214\346\231\257 *            /* \346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"    border: 1px solid rgb(77, 77, 77); /* \347\201\260\350\211\262\350\276\271\346\241\206 */\n"
+" \n"
+"    padding: 6px 8px;                     /* \345\206\205\350\276\271\350\267\235 */\n"
+"    selection-background-color: rgb(76, 132, 255); /* \351\200\211\344\270\255\346\226\207\346\234\254\350\203\214\346\231\257 */\n"
+"    selection-color: white;               /* \351\200\211\344\270\255\346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"    font-family: \"Segoe UI\", \"Microsoft YaHei\", sans-serif; /* \345\255\227\344\275\223 */\n"
+"    font-size: 14px;                      /* \345\255\227\345\217\267 */\n"
+"}\n"
+"\n"
+"QTextEdit:hover {\n"
+"    border-color: rgb(100, 100, 100);    /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217"
+                        "\230\346\267\261 */\n"
+"}\n"
+"\n"
+"QTextEdit:focus {\n"
+"   border-color: rgb(100, 100, 100);    /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217\230\346\267\261 */\n"
+"\n"
+"    outline: none;                       /* \347\247\273\351\231\244\351\273\230\350\256\244\347\204\246\347\202\271\350\231\232\347\272\277 */\n"
+"}\n"
+"\n"
+"\n"
+" /* \345\236\202\347\233\264\346\273\232\345\212\250\346\235\241\346\240\267\345\274\217 */\n"
+"QScrollBar:vertical {\n"
+"    background: transparent;\n"
+"    width: 4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical:hover {\n"
+"    background: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:vertical,\n"
+"QScrollBar::sub-line:vertical {\n"
+"    height: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:vertical,\n"
+"QScrollBar::sub-page:vertical {\n"
+"    backgrou"
+                        "nd: transparent;\n"
+"}\n"
+"\n"
+"/* \346\260\264\345\271\263\346\273\232\345\212\250\346\235\241\346\240\267\345\274\217 */\n"
+"QScrollBar:horizontal {\n"
+"    background: transparent;\n"
+"    height:4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-width: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal:hover {\n"
+"    background: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:horizontal,\n"
+"QScrollBar::sub-line:horizontal {\n"
+"    width: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:horizontal,\n"
+"QScrollBar::sub-page:horizontal {\n"
+"    background: transparent;\n"
+"}"));
+        textEdit->setReadOnly(true);
+
+        verticalLayout_2->addWidget(textEdit);
+
+        horizontalLayout_134 = new QHBoxLayout();
+        horizontalLayout_134->setObjectName(QString::fromUtf8("horizontalLayout_134"));
+        horizontalSpacer_172 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_134->addItem(horizontalSpacer_172);
+
+        pushButton_104 = new QPushButton(groupBox_2);
+        pushButton_104->setObjectName(QString::fromUtf8("pushButton_104"));
+        pushButton_104->setMinimumSize(QSize(120, 30));
+        pushButton_104->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        pushButton_104->setIcon(icon);
+
+        horizontalLayout_134->addWidget(pushButton_104);
+
+
+        verticalLayout_2->addLayout(horizontalLayout_134);
+
+
+        verticalLayout_12->addWidget(groupBox_2);
+
+        verticalLayout_12->setStretch(0, 1);
+        verticalLayout_12->setStretch(1, 2);
+        verticalLayout_12->setStretch(3, 3);
+
+        horizontalLayout_34->addLayout(verticalLayout_12);
+
+        tabWidget_Choose = new QTabWidget(centralwidget);
+        tabWidget_Choose->setObjectName(QString::fromUtf8("tabWidget_Choose"));
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(tabWidget_Choose->sizePolicy().hasHeightForWidth());
+        tabWidget_Choose->setSizePolicy(sizePolicy);
+        tabWidget_Choose->setFont(font);
+        tabWidget_Choose->setLayoutDirection(Qt::LeftToRight);
+        tabWidget_Choose->setStyleSheet(QString::fromUtf8("/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"QTabBar::tab {\n"
+"    background: transparent;\n"
+"    color: rgb(255, 255, 255);\n"
+"    border: none;\n"
+"    border-right: 2px solid #666666; /* \345\212\240\347\262\227\345\210\206\351\232\224\347\272\277\350\207\2632px\357\274\214\344\275\277\347\224\250\347\250\215\344\272\256\347\232\204\347\201\260\350\211\262 */\n"
+"    \n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\";\n"
+"    font-size: 20px;\n"
+"    min-width: 50ex;\n"
+"    min-height: 8ex;\n"
+"    padding: 0 15px;\n"
+"}\n"
+"\n"
+"/* \347\247\273\351\231\244\346\234\200\345\220\216\344\270\200\344\270\252\346\240\207\347\255\276\351\241\265\347\232\204\345\217\263\344\276\247\350\276\271\346\241\206 */\n"
+"QTabBar::tab:last {\n"
+"    border-right: none;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\351\200\211\344\270\255\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"QTabBar::tab"
+                        ":selected {\n"
+"    \n"
+"    border-bottom: 6px solid #2196F3;\n"
+"    background: rgb(50, 50, 50);\n"
+"    color: rgb(0, 168, 252);\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\346\234\254\350\272\253\347\224\237\346\225\210 */\n"
+"QTabWidget {\n"
+"    background-color: rgb(50, 50, 50);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 16px;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\346\240\217\347\224\237\346\225\210 */\n"
+"QTabWidget::tab-bar {\n"
+"    alignment: center;\n"
+"}\n"
+"/* \350\256\276\347\275\256\345\206\205\345\256\271\345\214\272\345\237\237\347\232\204\350\276\271\350\267\235 - \344\270\212\346\226\271\347\225\231\345\207\27220px\351\227\264\350\267\235 */\n"
+"QTabWidget::pane {\n"
+"   \n"
+"    top: 3px; /* \345\205\263\351\224\256\344\277\256\346\224\271\357\274\232\345\260\206\345\206\205\345\256\271\345\214\272\345\237\237\344\270\213\347\247\27320px */\n"
+""
+                        "}"));
+        tab_2 = new QWidget();
+        tab_2->setObjectName(QString::fromUtf8("tab_2"));
+        tab_2->setStyleSheet(QString::fromUtf8("/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab {\n"
+"    background: transparent;\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-size: 2px;\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 20px;\n"
+"    min-width: 60ex;\n"
+"    min-height: 8ex;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\351\200\211\344\270\255\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab:selected {\n"
+"    border: 0px solid;\n"
+"    border-bottom: 6px solid #2196F3;\n"
+"    background: rgb(50, 50, 50);\n"
+"    color: rgb(0, 168, 252);\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\346\234\254\350\272\253\347\224\237\346\225\210 */\n"
+"#tabWidget {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\346\240\217\347\224\237\346\225\210 */\n"
+"QTabWidget::tab-ba"
+                        "r {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+" /* GroupBox\346\240\207\351\242\230\346\240\267\345\274\217 */\n"
+"    QGroupBox::title {\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"        color: white;\n"
+"      \n"
+"       \n"
+"    }\n"
+"    \n"
+"    /* GroupBox\345\206\205\351\203\250\346\216\247\344\273\266\347\232\204\351\273\230\350\256\244\346\240\267\345\274\217 */\n"
+"    QGroupBox {\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;\n"
+"    }\n"
+"        QGroupBox::title {\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"        color: white;\n"
+"      \n"
+"       \n"
+"    }\n"
+"    /* \345\205\266\344\273\226\346\216\247\344\273\266\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"    QLabel, QPushButton,QComboBox,QTextEdit,QDoubleSpinBox,QSpinBox,QRadioButton,QSlider,QCheckBox{\n"
+" color:"
+                        "white;\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;\n"
+" background-color: rgb(62,62,62);\n"
+"    }\n"
+"\n"
+"\n"
+"\n"
+"/*horizontal \357\274\232\346\260\264\345\271\263QSlider*/\n"
+"QSlider::groove:horizontal {\n"
+"    border: 0px solid #bbb;\n"
+"    height: 20px;\n"
+"}\n"
+"\n"
+"/*1.\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::sub-page:horizontal {\n"
+" /*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(18, 142, 237);\n"
+" /*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:8px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:8px;\n"
+"/*width\345\234\250\350\277\231\351\207\214\346\227\240\346\225\210\357\274\214\344\270"
+                        "\215\345\206\231\345\215\263\345\217\257*/\n"
+"}\n"
+"\n"
+"/*2.\346\234\252\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::add-page:horizontal {\n"
+"/*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(100, 100, 100);\n"
+"/*\345\244\226\347\216\257\345\244\247\345\260\2170px\345\260\261\346\230\257\344\270\215\346\230\276\347\244\272\357\274\214\351\273\230\350\256\244\344\271\237\346\230\2570*/\n"
+"border: 0px solid #777;\n"
+"/*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:9px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:9px;\n"
+"}\n"
+"\n"
+"/*3.\345\271\263\346\227\266\346\273\221\345\212\250\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+""
+                        "QSlider::handle:horizontal {\n"
+"    /*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"    background: rgb(193,204,208);\n"
+"    /*\346\273\221\345\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"    height: 25px;\n"
+"    /*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"    border: 1px solid rgb(193,204,208);\n"
+"     /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"    border-radius: 2px;\n"
+"     /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-top:6px;\n"
+"     /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-bottom:6px;\n"
+"}\n"
+"\n"
+"/*4.\346\211\213\345\212\250\346\213\211\345\212\250\346\227\266\346\230\276\347\244\272\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizo"
+                        "ntal:hover {\n"
+"/*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"background: rgb(193,204,208);\n"
+"/*\346\273\221\345\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"height: 28px;\n"
+"/*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"border: 1px solid rgb(193,204,208);\n"
+" /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 5px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:4px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:4px;\n"
+"}\n"
+"QSlider::groove:horizontal{\n"
+"    Margin:2px 0;\n"
+"}\n"
+"QSpinBox,QDoubleSpinBox {\n"
+"    /* \345\237\272\347\241\200\346\240\267\345\274\217 */\n"
+"    background-color: rgb(38, 38, 38);  /* \346\267\261\347\201\260\350\211\262\350\203\214\346\231\257 */\n"
+"    co"
+                        "lor: white;                       /* \347\231\275\350\211\262\346\226\207\346\234\254 */\n"
+"    border: 1px solid rgb(77, 77, 77);  /* \350\276\271\346\241\206 */\n"
+"  \n"
+"    selection-background-color: rgb(76, 132, 255); /* \351\200\211\344\270\255\346\226\207\346\234\254\350\203\214\346\231\257 */\n"
+"    selection-color: white;             /* \351\200\211\344\270\255\346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;                  /* \345\255\227\345\217\267 */\n"
+"}\n"
+"\n"
+"QSpinBox:hover {\n"
+"    border-color: rgb(100, 100, 100);   /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217\230\346\267\261 */\n"
+"}\n"
+"\n"
+"QSpinBox:focus {\n"
+"    border-color: rgb(100, 100, 100);    /* \347\204\246\347\202\271\347\212\266\346\200\201\344\275\277\347\224\250\350\223\235\350\211\262\350\276\271\346\241\206 */\n"
+"    background-color: rgb(70, 70, 70);  /* \347\204\246\347\202\271"
+                        "\347\212\266\346\200\201\345\276\256\350\260\203\350\203\214\346\231\257 */\n"
+"    outline: none;                      /* \347\247\273\351\231\244\351\273\230\350\256\244\347\204\246\347\202\271\350\231\232\347\272\277 */\n"
+"}\n"
+"QDoubleSpinBox:hover {\n"
+"    border-color: rgb(100, 100, 100);   /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217\230\346\267\261 */\n"
+"}\n"
+"\n"
+"QDoubleSpinBox:focus {\n"
+"    border-color: rgb(100, 100, 100);    /* \347\204\246\347\202\271\347\212\266\346\200\201\344\275\277\347\224\250\350\223\235\350\211\262\350\276\271\346\241\206 */\n"
+"    background-color: rgb(70, 70, 70);  /* \347\204\246\347\202\271\347\212\266\346\200\201\345\276\256\350\260\203\350\203\214\346\231\257 */\n"
+"    outline: none;                      /* \347\247\273\351\231\244\351\273\230\350\256\244\347\204\246\347\202\271\350\231\232\347\272\277 */\n"
+"}"));
+        verticalLayout_52 = new QVBoxLayout(tab_2);
+        verticalLayout_52->setObjectName(QString::fromUtf8("verticalLayout_52"));
+        groupBox_3 = new QGroupBox(tab_2);
+        groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
+        groupBox_3->setFont(font);
+        groupBox_3->setStyleSheet(QString::fromUtf8(" QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }"));
+        verticalLayout_23 = new QVBoxLayout(groupBox_3);
+        verticalLayout_23->setObjectName(QString::fromUtf8("verticalLayout_23"));
+        verticalLayout_23->setContentsMargins(-1, 25, -1, -1);
+        line_6 = new QFrame(groupBox_3);
+        line_6->setObjectName(QString::fromUtf8("line_6"));
+        line_6->setMaximumSize(QSize(16777215, 1));
+        line_6->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_6->setFrameShape(QFrame::HLine);
+        line_6->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_23->addWidget(line_6);
+
+        horizontalLayout_97 = new QHBoxLayout();
+        horizontalLayout_97->setObjectName(QString::fromUtf8("horizontalLayout_97"));
+
+        verticalLayout_23->addLayout(horizontalLayout_97);
+
+        verticalLayout_23->setStretch(1, 1);
+
+        verticalLayout_52->addWidget(groupBox_3);
+
+        horizontalLayout_144 = new QHBoxLayout();
+        horizontalLayout_144->setObjectName(QString::fromUtf8("horizontalLayout_144"));
+        groupBox_33 = new QGroupBox(tab_2);
+        groupBox_33->setObjectName(QString::fromUtf8("groupBox_33"));
+        groupBox_33->setMinimumSize(QSize(0, 0));
+        groupBox_33->setMaximumSize(QSize(16777215, 16777215));
+        groupBox_33->setFont(font);
+        groupBox_33->setStyleSheet(QString::fromUtf8(" QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }"));
+        groupBox_33->setFlat(true);
+        groupBox_33->setCheckable(false);
+        groupBox_33->setChecked(false);
+        verticalLayout_73 = new QVBoxLayout(groupBox_33);
+        verticalLayout_73->setObjectName(QString::fromUtf8("verticalLayout_73"));
+        verticalLayout_73->setContentsMargins(-1, 25, -1, -1);
+        line = new QFrame(groupBox_33);
+        line->setObjectName(QString::fromUtf8("line"));
+        line->setMinimumSize(QSize(0, 0));
+        line->setMaximumSize(QSize(16777215, 1));
+        line->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line->setFrameShape(QFrame::HLine);
+        line->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_73->addWidget(line);
+
+        horizontalLayout_270 = new QHBoxLayout();
+        horizontalLayout_270->setObjectName(QString::fromUtf8("horizontalLayout_270"));
+        horizontalLayout_98 = new QHBoxLayout();
+        horizontalLayout_98->setObjectName(QString::fromUtf8("horizontalLayout_98"));
+        label_63 = new QLabel(groupBox_33);
+        label_63->setObjectName(QString::fromUtf8("label_63"));
+
+        horizontalLayout_98->addWidget(label_63);
+
+        comboBox_5 = new QComboBox(groupBox_33);
+        comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
+        comboBox_5->setObjectName(QString::fromUtf8("comboBox_5"));
+        comboBox_5->setMinimumSize(QSize(60, 0));
+        comboBox_5->setStyleSheet(QString::fromUtf8("   QComboBox {\n"
+"            background-color: rgb(38,38,38);\n"
+"            color: rgb(255, 255, 255);\n"
+"            font-size: 14px;\n"
+"  font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        }\n"
+"\n"
+"        QComboBox:hover {\n"
+"             font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"      \n"
+"            font-size: 14px;\n"
+"            color: #0081FF;\n"
+"            line-height: 22px;\n"
+"            text-align: left;\n"
+"            font-style: normal;\n"
+"\n"
+"        }\n"
+"\n"
+"        QComboBox::drop-down {\n"
+"            width: 15px;\n"
+"border:none;\n"
+"        }\n"
+"QComboBox::down-arrow {\n"
+"    image: url(:/images/resources/down.png);  /* \350\207\252\345\256\232\344\271\211\344\270\213\346\213\211\347\256\255\345\244\264 */\n"
+" \n"
+"}\n"
+"        QComboBox QAbstractItemView {\n"
+"            border: none;\n"
+"            background-color: rgb(38, 38, 38);\n"
+"            selection-background-color: rgb(39, 39,39);\n"
+"           "
+                        " selection-color: #0081FF;\n"
+"outline: none;  /* \347\246\201\347\224\250\345\210\227\350\241\250\346\225\264\344\275\223\347\232\204\347\204\246\347\202\271\350\275\256\345\273\223 */\n"
+"        }\n"
+"/* \347\246\201\347\224\250\351\200\211\344\270\255\351\241\271\347\232\204\350\231\232\347\272\277\350\276\271\346\241\206 */\n"
+"QComboBox QAbstractItemView::item:selected:focus {\n"
+"    border: none;\n"
+"}"));
+
+        horizontalLayout_98->addWidget(comboBox_5);
+
+        horizontalSpacer_119 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_98->addItem(horizontalSpacer_119);
+
+        horizontalLayout_98->setStretch(0, 1);
+        horizontalLayout_98->setStretch(1, 1);
+        horizontalLayout_98->setStretch(2, 5);
+
+        horizontalLayout_270->addLayout(horizontalLayout_98);
+
+
+        verticalLayout_73->addLayout(horizontalLayout_270);
+
+        tabWidget_11 = new QTabWidget(groupBox_33);
+        tabWidget_11->setObjectName(QString::fromUtf8("tabWidget_11"));
+        sizePolicy.setHeightForWidth(tabWidget_11->sizePolicy().hasHeightForWidth());
+        tabWidget_11->setSizePolicy(sizePolicy);
+        tabWidget_11->setStyleSheet(QString::fromUtf8("/* \345\255\220QTabWidget\347\232\204\346\225\264\344\275\223\346\240\267\345\274\217 */\n"
+"#tabWidget_11 {\n"
+"    background-color: rgb(62, 62, 62);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    /* \350\277\231\351\207\214\344\270\215\350\256\276\347\275\256font-size\357\274\214\351\201\277\345\205\215\345\275\261\345\223\215\345\255\220\346\216\247\344\273\266 */\n"
+"}\n"
+"\n"
+"/* \345\255\220QTabWidget\347\232\204\346\240\207\347\255\276\346\240\217\346\240\267\345\274\217\357\274\210\345\205\263\351\224\256\357\274\232\351\200\232\350\277\207#\346\214\207\345\256\232\350\214\203\345\233\264\357\274\211 */\n"
+"#tabWidget_11 QTabBar {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+"/* \345\255\220QTabWidget\347\232\204\346\240\207\347\255\276\346\226\207\345\255\227\346\240\267\345\274\217\357\274\210\347\262\276\345\207\206\346\216\247\345\210\266\345\255\227\344\275\223\345\244\247\345\260\217\357\274\211 */\n"
+"#tabWidget_11 QTabBar::tab "
+                        "{\n"
+"    background-color: rgb(62, 62, 62);\n"
+"    color: rgb(255, 255, 255);\n"
+"    min-width: 20ex;\n"
+"    min-height: 7ex;\n"
+"    font-size: 16px;  /* \345\255\220\346\240\207\347\255\276\345\255\227\344\275\223\345\244\247\345\260\217\357\274\210\346\214\211\351\234\200\350\260\203\346\225\264\357\274\211 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";  /* \345\274\272\345\210\266\346\214\207\345\256\232\345\255\227\344\275\223 */\n"
+"}\n"
+"\n"
+"#tabWidget_11 QTabBar::tab:selected {\n"
+"    border-bottom: 4px solid #2196F3;\n"
+"    background-color: rgb(62, 62, 62);\n"
+"    color: rgb(0, 168, 252);\n"
+"    font-size: 16px;  /* \351\200\211\344\270\255\347\212\266\346\200\201\344\271\237\344\277\235\346\214\201\344\270\200\350\207\264\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"}\n"
+"\n"
+"/* \345\255\220QTabWidget\347\232\204\345\206\205\345\256\271\351\235\242\346\235\277\346\240\267\345\274\217 */\n"
+"#tabWidget_11 QTabWidget::pane {\n"
+"    border"
+                        ": none;\n"
+"    background: rgb(62, 62, 62);\n"
+"    margin-top: 2px;\n"
+"}"));
+        tab_25 = new QWidget();
+        tab_25->setObjectName(QString::fromUtf8("tab_25"));
+        verticalLayout_161 = new QVBoxLayout(tab_25);
+        verticalLayout_161->setObjectName(QString::fromUtf8("verticalLayout_161"));
+        verticalLayout_161->setContentsMargins(0, 0, 0, 0);
+        groupBox_37 = new QGroupBox(tab_25);
+        groupBox_37->setObjectName(QString::fromUtf8("groupBox_37"));
+        groupBox_37->setStyleSheet(QString::fromUtf8("QGroupBox { border: none;  color:white;}"));
+        verticalLayout_162 = new QVBoxLayout(groupBox_37);
+        verticalLayout_162->setObjectName(QString::fromUtf8("verticalLayout_162"));
+        verticalLayout_162->setContentsMargins(0, 0, 0, 0);
+        groupBox_Downcct = new QGroupBox(groupBox_37);
+        groupBox_Downcct->setObjectName(QString::fromUtf8("groupBox_Downcct"));
+        groupBox_Downcct->setStyleSheet(QString::fromUtf8(" QGroupBox{\n"
+"border: none\n"
+"}"));
+        verticalLayout_163 = new QVBoxLayout(groupBox_Downcct);
+        verticalLayout_163->setObjectName(QString::fromUtf8("verticalLayout_163"));
+        verticalLayout_163->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_271 = new QHBoxLayout();
+        horizontalLayout_271->setObjectName(QString::fromUtf8("horizontalLayout_271"));
+        horizontalLayout_272 = new QHBoxLayout();
+        horizontalLayout_272->setObjectName(QString::fromUtf8("horizontalLayout_272"));
+        horizontalLayout_273 = new QHBoxLayout();
+        horizontalLayout_273->setObjectName(QString::fromUtf8("horizontalLayout_273"));
+        horizontalLayout_274 = new QHBoxLayout();
+        horizontalLayout_274->setObjectName(QString::fromUtf8("horizontalLayout_274"));
+        label_160 = new QLabel(groupBox_Downcct);
+        label_160->setObjectName(QString::fromUtf8("label_160"));
+        QFont font2;
+        font2.setFamily(QString::fromUtf8("Source Han Sans"));
+        label_160->setFont(font2);
+        label_160->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_274->addWidget(label_160);
+
+        Downcctmin = new QLabel(groupBox_Downcct);
+        Downcctmin->setObjectName(QString::fromUtf8("Downcctmin"));
+
+        horizontalLayout_274->addWidget(Downcctmin);
+
+        horizontalLayout_274->setStretch(0, 2);
+        horizontalLayout_274->setStretch(1, 1);
+
+        horizontalLayout_273->addLayout(horizontalLayout_274);
+
+        Slider_Downcct = new QSlider(groupBox_Downcct);
+        Slider_Downcct->setObjectName(QString::fromUtf8("Slider_Downcct"));
+        Slider_Downcct->setMinimumSize(QSize(0, 20));
+        Slider_Downcct->setMaximumSize(QSize(16777215, 12));
+        Slider_Downcct->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_Downcct->setMinimum(2300);
+        Slider_Downcct->setMaximum(10000);
+        Slider_Downcct->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_273->addWidget(Slider_Downcct);
+
+        horizontalLayout_273->setStretch(0, 5);
+        horizontalLayout_273->setStretch(1, 16);
+
+        horizontalLayout_272->addLayout(horizontalLayout_273);
+
+        Downcctmax = new QLabel(groupBox_Downcct);
+        Downcctmax->setObjectName(QString::fromUtf8("Downcctmax"));
+        Downcctmax->setMinimumSize(QSize(48, 0));
+        Downcctmax->setFont(font2);
+        Downcctmax->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_272->addWidget(Downcctmax);
+
+        horizontalLayout_272->setStretch(0, 16);
+        horizontalLayout_272->setStretch(1, 3);
+
+        horizontalLayout_271->addLayout(horizontalLayout_272);
+
+        horizontalLayout_275 = new QHBoxLayout();
+        horizontalLayout_275->setObjectName(QString::fromUtf8("horizontalLayout_275"));
+        pushButton_150 = new QPushButton(groupBox_Downcct);
+        pushButton_150->setObjectName(QString::fromUtf8("pushButton_150"));
+        pushButton_150->setMinimumSize(QSize(25, 25));
+        pushButton_150->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/images/resources/\345\207\217.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_150->setIcon(icon1);
+
+        horizontalLayout_275->addWidget(pushButton_150);
+
+        spinBox_cct_2 = new QSpinBox(groupBox_Downcct);
+        spinBox_cct_2->setObjectName(QString::fromUtf8("spinBox_cct_2"));
+        spinBox_cct_2->setMinimumSize(QSize(80, 25));
+        spinBox_cct_2->setAlignment(Qt::AlignCenter);
+        spinBox_cct_2->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_cct_2->setMinimum(2300);
+        spinBox_cct_2->setMaximum(10000);
+
+        horizontalLayout_275->addWidget(spinBox_cct_2);
+
+        pushButton_151 = new QPushButton(groupBox_Downcct);
+        pushButton_151->setObjectName(QString::fromUtf8("pushButton_151"));
+        pushButton_151->setMinimumSize(QSize(25, 25));
+        pushButton_151->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/images/resources/\345\212\240.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_151->setIcon(icon2);
+
+        horizontalLayout_275->addWidget(pushButton_151);
+
+
+        horizontalLayout_271->addLayout(horizontalLayout_275);
+
+        horizontalLayout_271->setStretch(0, 5);
+        horizontalLayout_271->setStretch(1, 1);
+
+        verticalLayout_163->addLayout(horizontalLayout_271);
+
+
+        verticalLayout_162->addWidget(groupBox_Downcct);
+
+        groupBox_Downill = new QGroupBox(groupBox_37);
+        groupBox_Downill->setObjectName(QString::fromUtf8("groupBox_Downill"));
+        groupBox_Downill->setStyleSheet(QString::fromUtf8(" QGroupBox{\n"
+"border: none\n"
+"}"));
+        verticalLayout_164 = new QVBoxLayout(groupBox_Downill);
+        verticalLayout_164->setObjectName(QString::fromUtf8("verticalLayout_164"));
+        verticalLayout_164->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_276 = new QHBoxLayout();
+        horizontalLayout_276->setObjectName(QString::fromUtf8("horizontalLayout_276"));
+        horizontalLayout_277 = new QHBoxLayout();
+        horizontalLayout_277->setObjectName(QString::fromUtf8("horizontalLayout_277"));
+        horizontalLayout_278 = new QHBoxLayout();
+        horizontalLayout_278->setObjectName(QString::fromUtf8("horizontalLayout_278"));
+        horizontalLayout_279 = new QHBoxLayout();
+        horizontalLayout_279->setObjectName(QString::fromUtf8("horizontalLayout_279"));
+        label_161 = new QLabel(groupBox_Downill);
+        label_161->setObjectName(QString::fromUtf8("label_161"));
+        label_161->setFont(font2);
+        label_161->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_279->addWidget(label_161);
+
+        Downillmin = new QLabel(groupBox_Downill);
+        Downillmin->setObjectName(QString::fromUtf8("Downillmin"));
+
+        horizontalLayout_279->addWidget(Downillmin);
+
+        horizontalLayout_279->setStretch(0, 2);
+        horizontalLayout_279->setStretch(1, 1);
+
+        horizontalLayout_278->addLayout(horizontalLayout_279);
+
+        Slider_Downill = new QSlider(groupBox_Downill);
+        Slider_Downill->setObjectName(QString::fromUtf8("Slider_Downill"));
+        Slider_Downill->setMinimumSize(QSize(0, 20));
+        Slider_Downill->setMaximumSize(QSize(16777215, 12));
+        Slider_Downill->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_Downill->setMaximum(9999);
+        Slider_Downill->setValue(0);
+        Slider_Downill->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_278->addWidget(Slider_Downill);
+
+        horizontalLayout_278->setStretch(0, 6);
+        horizontalLayout_278->setStretch(1, 16);
+
+        horizontalLayout_277->addLayout(horizontalLayout_278);
+
+        Downillmax = new QLabel(groupBox_Downill);
+        Downillmax->setObjectName(QString::fromUtf8("Downillmax"));
+        Downillmax->setFont(font2);
+        Downillmax->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_277->addWidget(Downillmax);
+
+        horizontalLayout_277->setStretch(0, 16);
+        horizontalLayout_277->setStretch(1, 3);
+
+        horizontalLayout_276->addLayout(horizontalLayout_277);
+
+        horizontalLayout_280 = new QHBoxLayout();
+        horizontalLayout_280->setObjectName(QString::fromUtf8("horizontalLayout_280"));
+        pushButton_152 = new QPushButton(groupBox_Downill);
+        pushButton_152->setObjectName(QString::fromUtf8("pushButton_152"));
+        pushButton_152->setMinimumSize(QSize(25, 25));
+        pushButton_152->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_152->setIcon(icon1);
+
+        horizontalLayout_280->addWidget(pushButton_152);
+
+        spinBox_ill_2 = new QSpinBox(groupBox_Downill);
+        spinBox_ill_2->setObjectName(QString::fromUtf8("spinBox_ill_2"));
+        spinBox_ill_2->setMinimumSize(QSize(80, 25));
+        spinBox_ill_2->setAlignment(Qt::AlignCenter);
+        spinBox_ill_2->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_ill_2->setMaximum(9999);
+        spinBox_ill_2->setValue(0);
+
+        horizontalLayout_280->addWidget(spinBox_ill_2);
+
+        pushButton_153 = new QPushButton(groupBox_Downill);
+        pushButton_153->setObjectName(QString::fromUtf8("pushButton_153"));
+        pushButton_153->setMinimumSize(QSize(25, 25));
+        pushButton_153->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_153->setIcon(icon2);
+
+        horizontalLayout_280->addWidget(pushButton_153);
+
+
+        horizontalLayout_276->addLayout(horizontalLayout_280);
+
+        horizontalLayout_276->setStretch(0, 5);
+        horizontalLayout_276->setStretch(1, 1);
+
+        verticalLayout_164->addLayout(horizontalLayout_276);
+
+
+        verticalLayout_162->addWidget(groupBox_Downill);
+
+
+        verticalLayout_161->addWidget(groupBox_37);
+
+        tabWidget_11->addTab(tab_25, QString());
+        tab_26 = new QWidget();
+        tab_26->setObjectName(QString::fromUtf8("tab_26"));
+        verticalLayout_167 = new QVBoxLayout(tab_26);
+        verticalLayout_167->setObjectName(QString::fromUtf8("verticalLayout_167"));
+        verticalLayout_167->setContentsMargins(0, 0, 0, 0);
+        groupBox_55 = new QGroupBox(tab_26);
+        groupBox_55->setObjectName(QString::fromUtf8("groupBox_55"));
+        groupBox_55->setStyleSheet(QString::fromUtf8("QGroupBox { border: none;  color:white;}"));
+        verticalLayout_168 = new QVBoxLayout(groupBox_55);
+        verticalLayout_168->setObjectName(QString::fromUtf8("verticalLayout_168"));
+        verticalLayout_168->setContentsMargins(0, 0, 0, 0);
+        verticalLayout_169 = new QVBoxLayout();
+        verticalLayout_169->setSpacing(0);
+        verticalLayout_169->setObjectName(QString::fromUtf8("verticalLayout_169"));
+        groupBox_Downnm1 = new QGroupBox(groupBox_55);
+        groupBox_Downnm1->setObjectName(QString::fromUtf8("groupBox_Downnm1"));
+        groupBox_Downnm1->setStyleSheet(QString::fromUtf8(" QGroupBox{\n"
+"border: none\n"
+"}"));
+        verticalLayout_170 = new QVBoxLayout(groupBox_Downnm1);
+        verticalLayout_170->setObjectName(QString::fromUtf8("verticalLayout_170"));
+        verticalLayout_170->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_600 = new QHBoxLayout();
+        horizontalLayout_600->setObjectName(QString::fromUtf8("horizontalLayout_600"));
+        horizontalLayout_601 = new QHBoxLayout();
+        horizontalLayout_601->setObjectName(QString::fromUtf8("horizontalLayout_601"));
+        horizontalLayout_608 = new QHBoxLayout();
+        horizontalLayout_608->setSpacing(7);
+        horizontalLayout_608->setObjectName(QString::fromUtf8("horizontalLayout_608"));
+        horizontalLayout_609 = new QHBoxLayout();
+        horizontalLayout_609->setObjectName(QString::fromUtf8("horizontalLayout_609"));
+        label_162 = new QLabel(groupBox_Downnm1);
+        label_162->setObjectName(QString::fromUtf8("label_162"));
+        label_162->setFont(font2);
+        label_162->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_162->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_609->addWidget(label_162);
+
+        Down_nm1_min = new QLabel(groupBox_Downnm1);
+        Down_nm1_min->setObjectName(QString::fromUtf8("Down_nm1_min"));
+        Down_nm1_min->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_609->addWidget(Down_nm1_min);
+
+        horizontalLayout_609->setStretch(0, 2);
+        horizontalLayout_609->setStretch(1, 1);
+
+        horizontalLayout_608->addLayout(horizontalLayout_609);
+
+        Slider_nm1 = new QSlider(groupBox_Downnm1);
+        Slider_nm1->setObjectName(QString::fromUtf8("Slider_nm1"));
+        Slider_nm1->setMinimumSize(QSize(0, 20));
+        Slider_nm1->setMaximumSize(QSize(16777215, 12));
+        Slider_nm1->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_nm1->setMaximum(2000);
+        Slider_nm1->setValue(0);
+        Slider_nm1->setSliderPosition(0);
+        Slider_nm1->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_608->addWidget(Slider_nm1);
+
+        horizontalLayout_608->setStretch(0, 6);
+        horizontalLayout_608->setStretch(1, 16);
+
+        horizontalLayout_601->addLayout(horizontalLayout_608);
+
+        Down_nm1_max = new QLabel(groupBox_Downnm1);
+        Down_nm1_max->setObjectName(QString::fromUtf8("Down_nm1_max"));
+        Down_nm1_max->setFont(font2);
+        Down_nm1_max->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        Down_nm1_max->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_601->addWidget(Down_nm1_max);
+
+        horizontalLayout_601->setStretch(0, 16);
+        horizontalLayout_601->setStretch(1, 2);
+
+        horizontalLayout_600->addLayout(horizontalLayout_601);
+
+        horizontalLayout_610 = new QHBoxLayout();
+        horizontalLayout_610->setObjectName(QString::fromUtf8("horizontalLayout_610"));
+        pushButton_206 = new QPushButton(groupBox_Downnm1);
+        pushButton_206->setObjectName(QString::fromUtf8("pushButton_206"));
+        pushButton_206->setMinimumSize(QSize(25, 25));
+        pushButton_206->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_206->setIcon(icon1);
+
+        horizontalLayout_610->addWidget(pushButton_206);
+
+        spinBox_nm1 = new QSpinBox(groupBox_Downnm1);
+        spinBox_nm1->setObjectName(QString::fromUtf8("spinBox_nm1"));
+        spinBox_nm1->setMinimumSize(QSize(80, 25));
+        spinBox_nm1->setAlignment(Qt::AlignCenter);
+        spinBox_nm1->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_nm1->setMaximum(2000);
+        spinBox_nm1->setValue(0);
+
+        horizontalLayout_610->addWidget(spinBox_nm1);
+
+        pushButton_207 = new QPushButton(groupBox_Downnm1);
+        pushButton_207->setObjectName(QString::fromUtf8("pushButton_207"));
+        pushButton_207->setMinimumSize(QSize(25, 25));
+        pushButton_207->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_207->setIcon(icon2);
+
+        horizontalLayout_610->addWidget(pushButton_207);
+
+
+        horizontalLayout_600->addLayout(horizontalLayout_610);
+
+        horizontalLayout_600->setStretch(0, 5);
+        horizontalLayout_600->setStretch(1, 1);
+
+        verticalLayout_170->addLayout(horizontalLayout_600);
+
+
+        verticalLayout_169->addWidget(groupBox_Downnm1);
+
+        groupBox_Downnm2 = new QGroupBox(groupBox_55);
+        groupBox_Downnm2->setObjectName(QString::fromUtf8("groupBox_Downnm2"));
+        groupBox_Downnm2->setStyleSheet(QString::fromUtf8(" QGroupBox{\n"
+"border: none\n"
+"}"));
+        verticalLayout_171 = new QVBoxLayout(groupBox_Downnm2);
+        verticalLayout_171->setObjectName(QString::fromUtf8("verticalLayout_171"));
+        verticalLayout_171->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_611 = new QHBoxLayout();
+        horizontalLayout_611->setObjectName(QString::fromUtf8("horizontalLayout_611"));
+        horizontalLayout_612 = new QHBoxLayout();
+        horizontalLayout_612->setObjectName(QString::fromUtf8("horizontalLayout_612"));
+        horizontalLayout_613 = new QHBoxLayout();
+        horizontalLayout_613->setSpacing(7);
+        horizontalLayout_613->setObjectName(QString::fromUtf8("horizontalLayout_613"));
+        horizontalLayout_614 = new QHBoxLayout();
+        horizontalLayout_614->setObjectName(QString::fromUtf8("horizontalLayout_614"));
+        label_192 = new QLabel(groupBox_Downnm2);
+        label_192->setObjectName(QString::fromUtf8("label_192"));
+        label_192->setFont(font2);
+        label_192->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_192->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_614->addWidget(label_192);
+
+        Down_nm2_min = new QLabel(groupBox_Downnm2);
+        Down_nm2_min->setObjectName(QString::fromUtf8("Down_nm2_min"));
+        Down_nm2_min->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_614->addWidget(Down_nm2_min);
+
+        horizontalLayout_614->setStretch(0, 2);
+        horizontalLayout_614->setStretch(1, 1);
+
+        horizontalLayout_613->addLayout(horizontalLayout_614);
+
+        Slider_nm2 = new QSlider(groupBox_Downnm2);
+        Slider_nm2->setObjectName(QString::fromUtf8("Slider_nm2"));
+        Slider_nm2->setMinimumSize(QSize(0, 20));
+        Slider_nm2->setMaximumSize(QSize(16777215, 12));
+        Slider_nm2->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_nm2->setMaximum(2000);
+        Slider_nm2->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_613->addWidget(Slider_nm2);
+
+        horizontalLayout_613->setStretch(0, 6);
+        horizontalLayout_613->setStretch(1, 16);
+
+        horizontalLayout_612->addLayout(horizontalLayout_613);
+
+        Down_nm2_max = new QLabel(groupBox_Downnm2);
+        Down_nm2_max->setObjectName(QString::fromUtf8("Down_nm2_max"));
+        Down_nm2_max->setFont(font2);
+        Down_nm2_max->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        Down_nm2_max->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_612->addWidget(Down_nm2_max);
+
+        horizontalLayout_612->setStretch(0, 16);
+        horizontalLayout_612->setStretch(1, 2);
+
+        horizontalLayout_611->addLayout(horizontalLayout_612);
+
+        horizontalLayout_615 = new QHBoxLayout();
+        horizontalLayout_615->setObjectName(QString::fromUtf8("horizontalLayout_615"));
+        pushButton_208 = new QPushButton(groupBox_Downnm2);
+        pushButton_208->setObjectName(QString::fromUtf8("pushButton_208"));
+        pushButton_208->setMinimumSize(QSize(25, 25));
+        pushButton_208->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_208->setIcon(icon1);
+
+        horizontalLayout_615->addWidget(pushButton_208);
+
+        spinBox_nm2 = new QSpinBox(groupBox_Downnm2);
+        spinBox_nm2->setObjectName(QString::fromUtf8("spinBox_nm2"));
+        spinBox_nm2->setMinimumSize(QSize(80, 25));
+        spinBox_nm2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        spinBox_nm2->setAlignment(Qt::AlignCenter);
+        spinBox_nm2->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_nm2->setMaximum(2000);
+
+        horizontalLayout_615->addWidget(spinBox_nm2);
+
+        pushButton_209 = new QPushButton(groupBox_Downnm2);
+        pushButton_209->setObjectName(QString::fromUtf8("pushButton_209"));
+        pushButton_209->setMinimumSize(QSize(25, 25));
+        pushButton_209->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_209->setIcon(icon2);
+
+        horizontalLayout_615->addWidget(pushButton_209);
+
+
+        horizontalLayout_611->addLayout(horizontalLayout_615);
+
+        horizontalLayout_611->setStretch(0, 5);
+        horizontalLayout_611->setStretch(1, 1);
+
+        verticalLayout_171->addLayout(horizontalLayout_611);
+
+
+        verticalLayout_169->addWidget(groupBox_Downnm2);
+
+
+        verticalLayout_168->addLayout(verticalLayout_169);
+
+
+        verticalLayout_167->addWidget(groupBox_55);
+
+        tabWidget_11->addTab(tab_26, QString());
+
+        verticalLayout_73->addWidget(tabWidget_11);
+
+        horizontalLayout_281 = new QHBoxLayout();
+        horizontalLayout_281->setObjectName(QString::fromUtf8("horizontalLayout_281"));
+        pushButton_155 = new QPushButton(groupBox_33);
+        pushButton_155->setObjectName(QString::fromUtf8("pushButton_155"));
+        pushButton_155->setMinimumSize(QSize(120, 30));
+        pushButton_155->setMaximumSize(QSize(95, 16777215));
+        pushButton_155->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"    padding: 4px 12px;                 /* \345\206\205\350\276\271\350\267\235 \n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201"
+                        "\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        QIcon icon3;
+        icon3.addFile(QString::fromUtf8(":/images/resources/\345\274\200\347\201\2572.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_155->setIcon(icon3);
+        pushButton_155->setCheckable(true);
+
+        horizontalLayout_281->addWidget(pushButton_155);
+
+        pushButton_164 = new QPushButton(groupBox_33);
+        pushButton_164->setObjectName(QString::fromUtf8("pushButton_164"));
+        pushButton_164->setMinimumSize(QSize(120, 30));
+        pushButton_164->setMaximumSize(QSize(95, 16777215));
+        pushButton_164->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        QIcon icon4;
+        icon4.addFile(QString::fromUtf8(":/images/resources/\345\205\263\347\201\257.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_164->setIcon(icon4);
+        pushButton_164->setCheckable(true);
+
+        horizontalLayout_281->addWidget(pushButton_164);
+
+
+        verticalLayout_73->addLayout(horizontalLayout_281);
+
+        verticalLayout_73->setStretch(1, 1);
+        verticalLayout_73->setStretch(2, 7);
+        verticalLayout_73->setStretch(3, 1);
+
+        horizontalLayout_144->addWidget(groupBox_33);
+
+        groupBox_32 = new QGroupBox(tab_2);
+        groupBox_32->setObjectName(QString::fromUtf8("groupBox_32"));
+        groupBox_32->setMinimumSize(QSize(0, 0));
+        groupBox_32->setMaximumSize(QSize(16777215, 16777215));
+        groupBox_32->setFont(font);
+        groupBox_32->setStyleSheet(QString::fromUtf8(" QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }"));
+        groupBox_32->setFlat(false);
+        groupBox_32->setCheckable(false);
+        groupBox_32->setChecked(false);
+        verticalLayout_71 = new QVBoxLayout(groupBox_32);
+        verticalLayout_71->setObjectName(QString::fromUtf8("verticalLayout_71"));
+        verticalLayout_71->setContentsMargins(-1, 25, -1, -1);
+        line_4 = new QFrame(groupBox_32);
+        line_4->setObjectName(QString::fromUtf8("line_4"));
+        line_4->setMaximumSize(QSize(16777215, 1));
+        line_4->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_4->setFrameShape(QFrame::HLine);
+        line_4->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_71->addWidget(line_4);
+
+        horizontalLayout_236 = new QHBoxLayout();
+        horizontalLayout_236->setObjectName(QString::fromUtf8("horizontalLayout_236"));
+        horizontalLayout_99 = new QHBoxLayout();
+        horizontalLayout_99->setObjectName(QString::fromUtf8("horizontalLayout_99"));
+        label_62 = new QLabel(groupBox_32);
+        label_62->setObjectName(QString::fromUtf8("label_62"));
+
+        horizontalLayout_99->addWidget(label_62);
+
+        comboBox = new QComboBox(groupBox_32);
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->setObjectName(QString::fromUtf8("comboBox"));
+        comboBox->setMinimumSize(QSize(60, 0));
+        comboBox->setStyleSheet(QString::fromUtf8("   QComboBox {\n"
+"            background-color: rgb(38,38,38);\n"
+"            color: rgb(255, 255, 255);\n"
+"            font-size: 14px;\n"
+"  font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        }\n"
+"\n"
+"        QComboBox:hover {\n"
+"             font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"      \n"
+"            font-size: 14px;\n"
+"            color: #0081FF;\n"
+"            line-height: 22px;\n"
+"            text-align: left;\n"
+"            font-style: normal;\n"
+"\n"
+"        }\n"
+"\n"
+"        QComboBox::drop-down {\n"
+"            width: 15px;\n"
+"border:none;\n"
+"        }\n"
+"QComboBox::down-arrow {\n"
+"    image: url(:/images/resources/down.png);  /* \350\207\252\345\256\232\344\271\211\344\270\213\346\213\211\347\256\255\345\244\264 */\n"
+" \n"
+"}\n"
+"        QComboBox QAbstractItemView {\n"
+"            border: none;\n"
+"            background-color: rgb(38, 38, 38);\n"
+"            selection-background-color: rgb(39, 39,39);\n"
+"           "
+                        " selection-color: #0081FF;\n"
+"outline: none;  /* \347\246\201\347\224\250\345\210\227\350\241\250\346\225\264\344\275\223\347\232\204\347\204\246\347\202\271\350\275\256\345\273\223 */\n"
+"        }\n"
+"/* \347\246\201\347\224\250\351\200\211\344\270\255\351\241\271\347\232\204\350\231\232\347\272\277\350\276\271\346\241\206 */\n"
+"QComboBox QAbstractItemView::item:selected:focus {\n"
+"    border: none;\n"
+"}"));
+
+        horizontalLayout_99->addWidget(comboBox);
+
+        horizontalSpacer_120 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_99->addItem(horizontalSpacer_120);
+
+        horizontalLayout_99->setStretch(0, 1);
+        horizontalLayout_99->setStretch(1, 1);
+        horizontalLayout_99->setStretch(2, 5);
+
+        horizontalLayout_236->addLayout(horizontalLayout_99);
+
+
+        verticalLayout_71->addLayout(horizontalLayout_236);
+
+        tabWidget_9 = new QTabWidget(groupBox_32);
+        tabWidget_9->setObjectName(QString::fromUtf8("tabWidget_9"));
+        sizePolicy.setHeightForWidth(tabWidget_9->sizePolicy().hasHeightForWidth());
+        tabWidget_9->setSizePolicy(sizePolicy);
+        tabWidget_9->setFont(font2);
+        tabWidget_9->setStyleSheet(QString::fromUtf8("/* \345\255\220QTabWidget\347\232\204\346\225\264\344\275\223\346\240\267\345\274\217 */\n"
+"#tabWidget_9 {\n"
+"    background-color: rgb(62, 62, 62);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    /* \350\277\231\351\207\214\344\270\215\350\256\276\347\275\256font-size\357\274\214\351\201\277\345\205\215\345\275\261\345\223\215\345\255\220\346\216\247\344\273\266 */\n"
+"}\n"
+"\n"
+"/* \345\255\220QTabWidget\347\232\204\346\240\207\347\255\276\346\240\217\346\240\267\345\274\217\357\274\210\345\205\263\351\224\256\357\274\232\351\200\232\350\277\207#\346\214\207\345\256\232\350\214\203\345\233\264\357\274\211 */\n"
+"#tabWidget_9 QTabBar {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+"/* \345\255\220QTabWidget\347\232\204\346\240\207\347\255\276\346\226\207\345\255\227\346\240\267\345\274\217\357\274\210\347\262\276\345\207\206\346\216\247\345\210\266\345\255\227\344\275\223\345\244\247\345\260\217\357\274\211 */\n"
+"#tabWidget_9 QTabBar::tab {\n"
+""
+                        "    background-color: rgb(62, 62, 62);\n"
+"    color: rgb(255, 255, 255);\n"
+"    min-width: 20ex;\n"
+"    min-height: 7ex;\n"
+"    font-size: 16px;  /* \345\255\220\346\240\207\347\255\276\345\255\227\344\275\223\345\244\247\345\260\217\357\274\210\346\214\211\351\234\200\350\260\203\346\225\264\357\274\211 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";  /* \345\274\272\345\210\266\346\214\207\345\256\232\345\255\227\344\275\223 */\n"
+"}\n"
+"\n"
+"#tabWidget_9 QTabBar::tab:selected {\n"
+"    border-bottom: 4px solid #2196F3;\n"
+"    background-color: rgb(62, 62, 62);\n"
+"    color: rgb(0, 168, 252);\n"
+"    font-size: 16px;  /* \351\200\211\344\270\255\347\212\266\346\200\201\344\271\237\344\277\235\346\214\201\344\270\200\350\207\264\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"}\n"
+"\n"
+"/* \345\255\220QTabWidget\347\232\204\345\206\205\345\256\271\351\235\242\346\235\277\346\240\267\345\274\217 */\n"
+"#tabWidget_9 QTabWidget::pane {\n"
+"    border: none;\n"
+""
+                        "    background: rgb(62, 62, 62);\n"
+"    margin-top: 2px;\n"
+"}"));
+        tab_20 = new QWidget();
+        tab_20->setObjectName(QString::fromUtf8("tab_20"));
+        tab_20->setStyleSheet(QString::fromUtf8("color:rgb(255,255,255);"));
+        verticalLayout_125 = new QVBoxLayout(tab_20);
+        verticalLayout_125->setObjectName(QString::fromUtf8("verticalLayout_125"));
+        verticalLayout_125->setContentsMargins(0, 0, 0, 0);
+        groupBox_28 = new QGroupBox(tab_20);
+        groupBox_28->setObjectName(QString::fromUtf8("groupBox_28"));
+        groupBox_28->setStyleSheet(QString::fromUtf8("QGroupBox { border: none;  color:white;}"));
+        verticalLayout_126 = new QVBoxLayout(groupBox_28);
+        verticalLayout_126->setObjectName(QString::fromUtf8("verticalLayout_126"));
+        verticalLayout_126->setContentsMargins(0, 0, 0, 0);
+        verticalLayout_132 = new QVBoxLayout();
+        verticalLayout_132->setObjectName(QString::fromUtf8("verticalLayout_132"));
+        verticalLayout_132->setContentsMargins(-1, 0, -1, -1);
+        groupBox_Upcct_2 = new QGroupBox(groupBox_28);
+        groupBox_Upcct_2->setObjectName(QString::fromUtf8("groupBox_Upcct_2"));
+        groupBox_Upcct_2->setStyleSheet(QString::fromUtf8(" QGroupBox{\n"
+"border: none\n"
+"}"));
+        verticalLayout_91 = new QVBoxLayout(groupBox_Upcct_2);
+        verticalLayout_91->setObjectName(QString::fromUtf8("verticalLayout_91"));
+        verticalLayout_91->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_242 = new QHBoxLayout();
+        horizontalLayout_242->setObjectName(QString::fromUtf8("horizontalLayout_242"));
+        horizontalLayout_248 = new QHBoxLayout();
+        horizontalLayout_248->setObjectName(QString::fromUtf8("horizontalLayout_248"));
+        horizontalLayout_249 = new QHBoxLayout();
+        horizontalLayout_249->setSpacing(7);
+        horizontalLayout_249->setObjectName(QString::fromUtf8("horizontalLayout_249"));
+        horizontalLayout_250 = new QHBoxLayout();
+        horizontalLayout_250->setObjectName(QString::fromUtf8("horizontalLayout_250"));
+        label_150 = new QLabel(groupBox_Upcct_2);
+        label_150->setObjectName(QString::fromUtf8("label_150"));
+        label_150->setFont(font2);
+        label_150->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_150->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_250->addWidget(label_150);
+
+        Upcctmin_2 = new QLabel(groupBox_Upcct_2);
+        Upcctmin_2->setObjectName(QString::fromUtf8("Upcctmin_2"));
+        Upcctmin_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_250->addWidget(Upcctmin_2);
+
+        horizontalLayout_250->setStretch(0, 2);
+        horizontalLayout_250->setStretch(1, 1);
+
+        horizontalLayout_249->addLayout(horizontalLayout_250);
+
+        Slider_cct = new QSlider(groupBox_Upcct_2);
+        Slider_cct->setObjectName(QString::fromUtf8("Slider_cct"));
+        Slider_cct->setMinimumSize(QSize(0, 20));
+        Slider_cct->setMaximumSize(QSize(16777215, 12));
+        Slider_cct->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_cct->setMinimum(2300);
+        Slider_cct->setMaximum(10000);
+        Slider_cct->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_249->addWidget(Slider_cct);
+
+        horizontalLayout_249->setStretch(0, 6);
+        horizontalLayout_249->setStretch(1, 16);
+
+        horizontalLayout_248->addLayout(horizontalLayout_249);
+
+        Upcctmax_2 = new QLabel(groupBox_Upcct_2);
+        Upcctmax_2->setObjectName(QString::fromUtf8("Upcctmax_2"));
+        Upcctmax_2->setMinimumSize(QSize(48, 0));
+        Upcctmax_2->setFont(font2);
+        Upcctmax_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_248->addWidget(Upcctmax_2);
+
+        horizontalLayout_248->setStretch(0, 16);
+        horizontalLayout_248->setStretch(1, 2);
+
+        horizontalLayout_242->addLayout(horizontalLayout_248);
+
+        horizontalLayout_251 = new QHBoxLayout();
+        horizontalLayout_251->setObjectName(QString::fromUtf8("horizontalLayout_251"));
+        pushButton_134 = new QPushButton(groupBox_Upcct_2);
+        pushButton_134->setObjectName(QString::fromUtf8("pushButton_134"));
+        pushButton_134->setMinimumSize(QSize(25, 25));
+        pushButton_134->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+
+        horizontalLayout_251->addWidget(pushButton_134);
+
+        spinBox_cct = new QSpinBox(groupBox_Upcct_2);
+        spinBox_cct->setObjectName(QString::fromUtf8("spinBox_cct"));
+        spinBox_cct->setMinimumSize(QSize(80, 25));
+        spinBox_cct->setAlignment(Qt::AlignCenter);
+        spinBox_cct->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_cct->setMinimum(2300);
+        spinBox_cct->setMaximum(10000);
+
+        horizontalLayout_251->addWidget(spinBox_cct);
+
+        pushButton_135 = new QPushButton(groupBox_Upcct_2);
+        pushButton_135->setObjectName(QString::fromUtf8("pushButton_135"));
+        pushButton_135->setMinimumSize(QSize(25, 25));
+        pushButton_135->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+
+        horizontalLayout_251->addWidget(pushButton_135);
+
+
+        horizontalLayout_242->addLayout(horizontalLayout_251);
+
+        horizontalLayout_242->setStretch(0, 5);
+        horizontalLayout_242->setStretch(1, 1);
+
+        verticalLayout_91->addLayout(horizontalLayout_242);
+
+
+        verticalLayout_132->addWidget(groupBox_Upcct_2);
+
+        groupBox_Upill_2 = new QGroupBox(groupBox_28);
+        groupBox_Upill_2->setObjectName(QString::fromUtf8("groupBox_Upill_2"));
+        groupBox_Upill_2->setStyleSheet(QString::fromUtf8(" QGroupBox{\n"
+"border: none\n"
+"}"));
+        verticalLayout_117 = new QVBoxLayout(groupBox_Upill_2);
+        verticalLayout_117->setObjectName(QString::fromUtf8("verticalLayout_117"));
+        verticalLayout_117->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_252 = new QHBoxLayout();
+        horizontalLayout_252->setObjectName(QString::fromUtf8("horizontalLayout_252"));
+        horizontalLayout_253 = new QHBoxLayout();
+        horizontalLayout_253->setObjectName(QString::fromUtf8("horizontalLayout_253"));
+        horizontalLayout_254 = new QHBoxLayout();
+        horizontalLayout_254->setSpacing(7);
+        horizontalLayout_254->setObjectName(QString::fromUtf8("horizontalLayout_254"));
+        horizontalLayout_255 = new QHBoxLayout();
+        horizontalLayout_255->setObjectName(QString::fromUtf8("horizontalLayout_255"));
+        label_155 = new QLabel(groupBox_Upill_2);
+        label_155->setObjectName(QString::fromUtf8("label_155"));
+        label_155->setFont(font2);
+        label_155->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_155->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_255->addWidget(label_155);
+
+        Upillmin_2 = new QLabel(groupBox_Upill_2);
+        Upillmin_2->setObjectName(QString::fromUtf8("Upillmin_2"));
+        Upillmin_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_255->addWidget(Upillmin_2);
+
+        horizontalLayout_255->setStretch(0, 2);
+        horizontalLayout_255->setStretch(1, 1);
+
+        horizontalLayout_254->addLayout(horizontalLayout_255);
+
+        Slider_ill = new QSlider(groupBox_Upill_2);
+        Slider_ill->setObjectName(QString::fromUtf8("Slider_ill"));
+        Slider_ill->setMinimumSize(QSize(0, 20));
+        Slider_ill->setMaximumSize(QSize(16777215, 12));
+        Slider_ill->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_ill->setMaximum(60000);
+        Slider_ill->setValue(0);
+        Slider_ill->setSliderPosition(0);
+        Slider_ill->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_254->addWidget(Slider_ill);
+
+        horizontalLayout_254->setStretch(0, 6);
+        horizontalLayout_254->setStretch(1, 16);
+
+        horizontalLayout_253->addLayout(horizontalLayout_254);
+
+        Upillmax_2 = new QLabel(groupBox_Upill_2);
+        Upillmax_2->setObjectName(QString::fromUtf8("Upillmax_2"));
+        Upillmax_2->setFont(font2);
+        Upillmax_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        Upillmax_2->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_253->addWidget(Upillmax_2);
+
+        horizontalLayout_253->setStretch(0, 16);
+        horizontalLayout_253->setStretch(1, 2);
+
+        horizontalLayout_252->addLayout(horizontalLayout_253);
+
+        horizontalLayout_256 = new QHBoxLayout();
+        horizontalLayout_256->setObjectName(QString::fromUtf8("horizontalLayout_256"));
+        pushButton_136 = new QPushButton(groupBox_Upill_2);
+        pushButton_136->setObjectName(QString::fromUtf8("pushButton_136"));
+        pushButton_136->setMinimumSize(QSize(25, 25));
+        pushButton_136->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+
+        horizontalLayout_256->addWidget(pushButton_136);
+
+        spinBox_ill = new QSpinBox(groupBox_Upill_2);
+        spinBox_ill->setObjectName(QString::fromUtf8("spinBox_ill"));
+        spinBox_ill->setMinimumSize(QSize(80, 25));
+        spinBox_ill->setAlignment(Qt::AlignCenter);
+        spinBox_ill->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_ill->setMaximum(60000);
+        spinBox_ill->setValue(0);
+
+        horizontalLayout_256->addWidget(spinBox_ill);
+
+        pushButton_137 = new QPushButton(groupBox_Upill_2);
+        pushButton_137->setObjectName(QString::fromUtf8("pushButton_137"));
+        pushButton_137->setMinimumSize(QSize(25, 25));
+        pushButton_137->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+
+        horizontalLayout_256->addWidget(pushButton_137);
+
+
+        horizontalLayout_252->addLayout(horizontalLayout_256);
+
+        horizontalLayout_252->setStretch(0, 5);
+        horizontalLayout_252->setStretch(1, 1);
+
+        verticalLayout_117->addLayout(horizontalLayout_252);
+
+
+        verticalLayout_132->addWidget(groupBox_Upill_2);
+
+        verticalLayout_132->setStretch(0, 1);
+        verticalLayout_132->setStretch(1, 1);
+
+        verticalLayout_126->addLayout(verticalLayout_132);
+
+
+        verticalLayout_125->addWidget(groupBox_28);
+
+        tabWidget_9->addTab(tab_20, QString());
+        tab_21 = new QWidget();
+        tab_21->setObjectName(QString::fromUtf8("tab_21"));
+        tab_21->setStyleSheet(QString::fromUtf8("color:rgb(255,255,255);"));
+        verticalLayout_159 = new QVBoxLayout(tab_21);
+        verticalLayout_159->setObjectName(QString::fromUtf8("verticalLayout_159"));
+        verticalLayout_159->setContentsMargins(0, 0, 0, 0);
+        groupBox_40 = new QGroupBox(tab_21);
+        groupBox_40->setObjectName(QString::fromUtf8("groupBox_40"));
+        groupBox_40->setStyleSheet(QString::fromUtf8("QGroupBox { border: none;  color:white;}"));
+        verticalLayout_133 = new QVBoxLayout(groupBox_40);
+        verticalLayout_133->setObjectName(QString::fromUtf8("verticalLayout_133"));
+        verticalLayout_133->setContentsMargins(0, 0, 0, 0);
+        verticalLayout_139 = new QVBoxLayout();
+        verticalLayout_139->setSpacing(0);
+        verticalLayout_139->setObjectName(QString::fromUtf8("verticalLayout_139"));
+        verticalLayout_139->setContentsMargins(-1, 0, -1, -1);
+        groupBox_Upduty_5 = new QGroupBox(groupBox_40);
+        groupBox_Upduty_5->setObjectName(QString::fromUtf8("groupBox_Upduty_5"));
+        groupBox_Upduty_5->setStyleSheet(QString::fromUtf8(""));
+        verticalLayout_66 = new QVBoxLayout(groupBox_Upduty_5);
+        verticalLayout_66->setObjectName(QString::fromUtf8("verticalLayout_66"));
+        horizontalLayout_332 = new QHBoxLayout();
+        horizontalLayout_332->setObjectName(QString::fromUtf8("horizontalLayout_332"));
+        horizontalLayout_333 = new QHBoxLayout();
+        horizontalLayout_333->setObjectName(QString::fromUtf8("horizontalLayout_333"));
+        horizontalLayout_334 = new QHBoxLayout();
+        horizontalLayout_334->setSpacing(7);
+        horizontalLayout_334->setObjectName(QString::fromUtf8("horizontalLayout_334"));
+        horizontalLayout_335 = new QHBoxLayout();
+        horizontalLayout_335->setObjectName(QString::fromUtf8("horizontalLayout_335"));
+        label_194 = new QLabel(groupBox_Upduty_5);
+        label_194->setObjectName(QString::fromUtf8("label_194"));
+        label_194->setFont(font2);
+        label_194->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_194->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_335->addWidget(label_194);
+
+        Up_fre_min_2 = new QLabel(groupBox_Upduty_5);
+        Up_fre_min_2->setObjectName(QString::fromUtf8("Up_fre_min_2"));
+        Up_fre_min_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+
+        horizontalLayout_335->addWidget(Up_fre_min_2);
+
+        horizontalLayout_335->setStretch(0, 2);
+        horizontalLayout_335->setStretch(1, 1);
+
+        horizontalLayout_334->addLayout(horizontalLayout_335);
+
+        Slider_fre = new QSlider(groupBox_Upduty_5);
+        Slider_fre->setObjectName(QString::fromUtf8("Slider_fre"));
+        Slider_fre->setMinimumSize(QSize(0, 20));
+        Slider_fre->setMaximumSize(QSize(16777215, 12));
+        Slider_fre->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_fre->setMaximum(10000);
+        Slider_fre->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_334->addWidget(Slider_fre);
+
+        horizontalLayout_334->setStretch(0, 6);
+        horizontalLayout_334->setStretch(1, 12);
+
+        horizontalLayout_333->addLayout(horizontalLayout_334);
+
+        Up_fre_max_2 = new QLabel(groupBox_Upduty_5);
+        Up_fre_max_2->setObjectName(QString::fromUtf8("Up_fre_max_2"));
+        Up_fre_max_2->setFont(font2);
+        Up_fre_max_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        Up_fre_max_2->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_333->addWidget(Up_fre_max_2);
+
+        horizontalLayout_333->setStretch(0, 16);
+
+        horizontalLayout_332->addLayout(horizontalLayout_333);
+
+        horizontalLayout_336 = new QHBoxLayout();
+        horizontalLayout_336->setObjectName(QString::fromUtf8("horizontalLayout_336"));
+        pushButton_167 = new QPushButton(groupBox_Upduty_5);
+        pushButton_167->setObjectName(QString::fromUtf8("pushButton_167"));
+        pushButton_167->setMinimumSize(QSize(25, 25));
+        pushButton_167->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_167->setIcon(icon1);
+
+        horizontalLayout_336->addWidget(pushButton_167);
+
+        doubleSpinBox_fre = new QDoubleSpinBox(groupBox_Upduty_5);
+        doubleSpinBox_fre->setObjectName(QString::fromUtf8("doubleSpinBox_fre"));
+        doubleSpinBox_fre->setMinimumSize(QSize(80, 25));
+        doubleSpinBox_fre->setAlignment(Qt::AlignCenter);
+        doubleSpinBox_fre->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        doubleSpinBox_fre->setDecimals(1);
+        doubleSpinBox_fre->setMaximum(1000.000000000000000);
+
+        horizontalLayout_336->addWidget(doubleSpinBox_fre);
+
+        pushButton_168 = new QPushButton(groupBox_Upduty_5);
+        pushButton_168->setObjectName(QString::fromUtf8("pushButton_168"));
+        pushButton_168->setMinimumSize(QSize(25, 25));
+        pushButton_168->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_168->setIcon(icon2);
+
+        horizontalLayout_336->addWidget(pushButton_168);
+
+
+        horizontalLayout_332->addLayout(horizontalLayout_336);
+
+        horizontalLayout_332->setStretch(0, 5);
+        horizontalLayout_332->setStretch(1, 1);
+
+        verticalLayout_66->addLayout(horizontalLayout_332);
+
+        horizontalLayout_337 = new QHBoxLayout();
+        horizontalLayout_337->setObjectName(QString::fromUtf8("horizontalLayout_337"));
+        horizontalLayout_338 = new QHBoxLayout();
+        horizontalLayout_338->setObjectName(QString::fromUtf8("horizontalLayout_338"));
+        horizontalLayout_339 = new QHBoxLayout();
+        horizontalLayout_339->setSpacing(7);
+        horizontalLayout_339->setObjectName(QString::fromUtf8("horizontalLayout_339"));
+        horizontalLayout_357 = new QHBoxLayout();
+        horizontalLayout_357->setObjectName(QString::fromUtf8("horizontalLayout_357"));
+        label_217 = new QLabel(groupBox_Upduty_5);
+        label_217->setObjectName(QString::fromUtf8("label_217"));
+        label_217->setFont(font2);
+        label_217->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_217->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_357->addWidget(label_217);
+
+        Up_duty_min_2 = new QLabel(groupBox_Upduty_5);
+        Up_duty_min_2->setObjectName(QString::fromUtf8("Up_duty_min_2"));
+
+        horizontalLayout_357->addWidget(Up_duty_min_2);
+
+        horizontalLayout_357->setStretch(0, 2);
+        horizontalLayout_357->setStretch(1, 1);
+
+        horizontalLayout_339->addLayout(horizontalLayout_357);
+
+        Slider_Up_duty_2 = new QSlider(groupBox_Upduty_5);
+        Slider_Up_duty_2->setObjectName(QString::fromUtf8("Slider_Up_duty_2"));
+        Slider_Up_duty_2->setMinimumSize(QSize(0, 20));
+        Slider_Up_duty_2->setMaximumSize(QSize(16777215, 12));
+        Slider_Up_duty_2->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_Up_duty_2->setMinimum(1);
+        Slider_Up_duty_2->setMaximum(99);
+        Slider_Up_duty_2->setValue(50);
+        Slider_Up_duty_2->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_339->addWidget(Slider_Up_duty_2);
+
+        horizontalLayout_339->setStretch(0, 6);
+        horizontalLayout_339->setStretch(1, 12);
+
+        horizontalLayout_338->addLayout(horizontalLayout_339);
+
+        Up_duty_max_2 = new QLabel(groupBox_Upduty_5);
+        Up_duty_max_2->setObjectName(QString::fromUtf8("Up_duty_max_2"));
+        Up_duty_max_2->setFont(font2);
+        Up_duty_max_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        Up_duty_max_2->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_338->addWidget(Up_duty_max_2);
+
+        horizontalLayout_338->setStretch(0, 16);
+        horizontalLayout_338->setStretch(1, 2);
+
+        horizontalLayout_337->addLayout(horizontalLayout_338);
+
+        horizontalLayout_358 = new QHBoxLayout();
+        horizontalLayout_358->setObjectName(QString::fromUtf8("horizontalLayout_358"));
+        pushButton_185 = new QPushButton(groupBox_Upduty_5);
+        pushButton_185->setObjectName(QString::fromUtf8("pushButton_185"));
+        pushButton_185->setMinimumSize(QSize(25, 25));
+        pushButton_185->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_185->setIcon(icon1);
+
+        horizontalLayout_358->addWidget(pushButton_185);
+
+        spinBox_duty = new QSpinBox(groupBox_Upduty_5);
+        spinBox_duty->setObjectName(QString::fromUtf8("spinBox_duty"));
+        spinBox_duty->setMinimumSize(QSize(80, 25));
+        spinBox_duty->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        spinBox_duty->setAlignment(Qt::AlignCenter);
+        spinBox_duty->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_duty->setMinimum(1);
+        spinBox_duty->setMaximum(99);
+        spinBox_duty->setValue(50);
+
+        horizontalLayout_358->addWidget(spinBox_duty);
+
+        pushButton_192 = new QPushButton(groupBox_Upduty_5);
+        pushButton_192->setObjectName(QString::fromUtf8("pushButton_192"));
+        pushButton_192->setMinimumSize(QSize(25, 25));
+        pushButton_192->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_192->setIcon(icon2);
+
+        horizontalLayout_358->addWidget(pushButton_192);
+
+
+        horizontalLayout_337->addLayout(horizontalLayout_358);
+
+        horizontalLayout_337->setStretch(0, 5);
+        horizontalLayout_337->setStretch(1, 1);
+
+        verticalLayout_66->addLayout(horizontalLayout_337);
+
+        horizontalLayout_315 = new QHBoxLayout();
+        horizontalLayout_315->setObjectName(QString::fromUtf8("horizontalLayout_315"));
+        horizontalLayout_328 = new QHBoxLayout();
+        horizontalLayout_328->setObjectName(QString::fromUtf8("horizontalLayout_328"));
+        horizontalLayout_329 = new QHBoxLayout();
+        horizontalLayout_329->setSpacing(7);
+        horizontalLayout_329->setObjectName(QString::fromUtf8("horizontalLayout_329"));
+        horizontalLayout_330 = new QHBoxLayout();
+        horizontalLayout_330->setObjectName(QString::fromUtf8("horizontalLayout_330"));
+        label_157 = new QLabel(groupBox_Upduty_5);
+        label_157->setObjectName(QString::fromUtf8("label_157"));
+        label_157->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_157->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_330->addWidget(label_157);
+
+        Up_freill_min_2 = new QLabel(groupBox_Upduty_5);
+        Up_freill_min_2->setObjectName(QString::fromUtf8("Up_freill_min_2"));
+
+        horizontalLayout_330->addWidget(Up_freill_min_2);
+
+        horizontalLayout_330->setStretch(0, 2);
+        horizontalLayout_330->setStretch(1, 1);
+
+        horizontalLayout_329->addLayout(horizontalLayout_330);
+
+        Slider_Up_freill_2 = new QSlider(groupBox_Upduty_5);
+        Slider_Up_freill_2->setObjectName(QString::fromUtf8("Slider_Up_freill_2"));
+        Slider_Up_freill_2->setMinimumSize(QSize(0, 20));
+        Slider_Up_freill_2->setMaximumSize(QSize(16777215, 12));
+        Slider_Up_freill_2->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_Up_freill_2->setMaximum(60000);
+        Slider_Up_freill_2->setValue(0);
+        Slider_Up_freill_2->setSliderPosition(0);
+        Slider_Up_freill_2->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_329->addWidget(Slider_Up_freill_2);
+
+        horizontalLayout_329->setStretch(0, 6);
+        horizontalLayout_329->setStretch(1, 12);
+
+        horizontalLayout_328->addLayout(horizontalLayout_329);
+
+        Up_freill_max_2 = new QLabel(groupBox_Upduty_5);
+        Up_freill_max_2->setObjectName(QString::fromUtf8("Up_freill_max_2"));
+        Up_freill_max_2->setFont(font2);
+        Up_freill_max_2->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        Up_freill_max_2->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_328->addWidget(Up_freill_max_2);
+
+        horizontalLayout_328->setStretch(0, 16);
+        horizontalLayout_328->setStretch(1, 2);
+
+        horizontalLayout_315->addLayout(horizontalLayout_328);
+
+        horizontalLayout_331 = new QHBoxLayout();
+        horizontalLayout_331->setObjectName(QString::fromUtf8("horizontalLayout_331"));
+        pushButton_138 = new QPushButton(groupBox_Upduty_5);
+        pushButton_138->setObjectName(QString::fromUtf8("pushButton_138"));
+        pushButton_138->setMinimumSize(QSize(25, 25));
+        pushButton_138->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_138->setIcon(icon1);
+
+        horizontalLayout_331->addWidget(pushButton_138);
+
+        spinBox_freill = new QSpinBox(groupBox_Upduty_5);
+        spinBox_freill->setObjectName(QString::fromUtf8("spinBox_freill"));
+        spinBox_freill->setMinimumSize(QSize(80, 25));
+        spinBox_freill->setAlignment(Qt::AlignCenter);
+        spinBox_freill->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_freill->setMaximum(60000);
+        spinBox_freill->setValue(0);
+
+        horizontalLayout_331->addWidget(spinBox_freill);
+
+        pushButton_139 = new QPushButton(groupBox_Upduty_5);
+        pushButton_139->setObjectName(QString::fromUtf8("pushButton_139"));
+        pushButton_139->setMinimumSize(QSize(25, 25));
+        pushButton_139->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_139->setIcon(icon2);
+
+        horizontalLayout_331->addWidget(pushButton_139);
+
+
+        horizontalLayout_315->addLayout(horizontalLayout_331);
+
+        horizontalLayout_315->setStretch(0, 5);
+        horizontalLayout_315->setStretch(1, 1);
+
+        verticalLayout_66->addLayout(horizontalLayout_315);
+
+
+        verticalLayout_139->addWidget(groupBox_Upduty_5);
+
+        verticalLayout_139->setStretch(0, 1);
+
+        verticalLayout_133->addLayout(verticalLayout_139);
+
+
+        verticalLayout_159->addWidget(groupBox_40);
+
+        tabWidget_9->addTab(tab_21, QString());
+
+        verticalLayout_71->addWidget(tabWidget_9);
+
+        horizontalLayout_257 = new QHBoxLayout();
+        horizontalLayout_257->setObjectName(QString::fromUtf8("horizontalLayout_257"));
+        pushButton_140 = new QPushButton(groupBox_32);
+        pushButton_140->setObjectName(QString::fromUtf8("pushButton_140"));
+        pushButton_140->setMinimumSize(QSize(120, 30));
+        pushButton_140->setMaximumSize(QSize(95, 16777215));
+        pushButton_140->setFont(font2);
+        pushButton_140->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"    padding: 4px 12px;                 /* \345\206\205\350\276\271\350\267\235 \n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201"
+                        "\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_140->setIcon(icon3);
+        pushButton_140->setCheckable(true);
+
+        horizontalLayout_257->addWidget(pushButton_140);
+
+        pushButton_141 = new QPushButton(groupBox_32);
+        pushButton_141->setObjectName(QString::fromUtf8("pushButton_141"));
+        pushButton_141->setMinimumSize(QSize(120, 30));
+        pushButton_141->setMaximumSize(QSize(95, 16777215));
+        pushButton_141->setFont(font2);
+        pushButton_141->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        pushButton_141->setIcon(icon4);
+        pushButton_141->setCheckable(true);
+
+        horizontalLayout_257->addWidget(pushButton_141);
+
+
+        verticalLayout_71->addLayout(horizontalLayout_257);
+
+        verticalLayout_71->setStretch(1, 1);
+        verticalLayout_71->setStretch(2, 7);
+        verticalLayout_71->setStretch(3, 1);
+
+        horizontalLayout_144->addWidget(groupBox_32);
+
+        groupBox_30 = new QGroupBox(tab_2);
+        groupBox_30->setObjectName(QString::fromUtf8("groupBox_30"));
+        groupBox_30->setFont(font);
+        groupBox_30->setStyleSheet(QString::fromUtf8(" QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }"));
+        groupBox_30->setFlat(false);
+        verticalLayout_24 = new QVBoxLayout(groupBox_30);
+        verticalLayout_24->setObjectName(QString::fromUtf8("verticalLayout_24"));
+        verticalLayout_24->setContentsMargins(-1, 25, -1, -1);
+        line_5 = new QFrame(groupBox_30);
+        line_5->setObjectName(QString::fromUtf8("line_5"));
+        line_5->setMaximumSize(QSize(16777215, 1));
+        line_5->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_5->setFrameShape(QFrame::HLine);
+        line_5->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_24->addWidget(line_5);
+
+        verticalSpacer_15 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_24->addItem(verticalSpacer_15);
+
+        horizontalLayout_140 = new QHBoxLayout();
+        horizontalLayout_140->setObjectName(QString::fromUtf8("horizontalLayout_140"));
+
+        verticalLayout_24->addLayout(horizontalLayout_140);
+
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(-1, 0, -1, -1);
+        label_preheat = new QLabel(groupBox_30);
+        label_preheat->setObjectName(QString::fromUtf8("label_preheat"));
+        label_preheat->setMinimumSize(QSize(0, 40));
+        label_preheat->setMaximumSize(QSize(16777215, 40));
+        label_preheat->setFont(font2);
+
+        horizontalLayout_2->addWidget(label_preheat);
+
+
+        verticalLayout_24->addLayout(horizontalLayout_2);
+
+        verticalSpacer_35 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_24->addItem(verticalSpacer_35);
+
+        horizontalLayout_353 = new QHBoxLayout();
+        horizontalLayout_353->setObjectName(QString::fromUtf8("horizontalLayout_353"));
+        horizontalLayout_354 = new QHBoxLayout();
+        horizontalLayout_354->setObjectName(QString::fromUtf8("horizontalLayout_354"));
+        horizontalLayout_361 = new QHBoxLayout();
+        horizontalLayout_361->setSpacing(7);
+        horizontalLayout_361->setObjectName(QString::fromUtf8("horizontalLayout_361"));
+        horizontalLayout_377 = new QHBoxLayout();
+        horizontalLayout_377->setObjectName(QString::fromUtf8("horizontalLayout_377"));
+        label_159 = new QLabel(groupBox_30);
+        label_159->setObjectName(QString::fromUtf8("label_159"));
+        label_159->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        label_159->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_377->addWidget(label_159);
+
+        Up_freill_min_4 = new QLabel(groupBox_30);
+        Up_freill_min_4->setObjectName(QString::fromUtf8("Up_freill_min_4"));
+
+        horizontalLayout_377->addWidget(Up_freill_min_4);
+
+        horizontalLayout_377->setStretch(0, 2);
+        horizontalLayout_377->setStretch(1, 1);
+
+        horizontalLayout_361->addLayout(horizontalLayout_377);
+
+        Slider_Up_freill_4 = new QSlider(groupBox_30);
+        Slider_Up_freill_4->setObjectName(QString::fromUtf8("Slider_Up_freill_4"));
+        Slider_Up_freill_4->setMinimumSize(QSize(0, 20));
+        Slider_Up_freill_4->setMaximumSize(QSize(16777215, 12));
+        Slider_Up_freill_4->setCursor(QCursor(Qt::PointingHandCursor));
+        Slider_Up_freill_4->setMinimum(1);
+        Slider_Up_freill_4->setMaximum(255);
+        Slider_Up_freill_4->setValue(1);
+        Slider_Up_freill_4->setSliderPosition(1);
+        Slider_Up_freill_4->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_361->addWidget(Slider_Up_freill_4);
+
+        horizontalLayout_361->setStretch(0, 6);
+        horizontalLayout_361->setStretch(1, 12);
+
+        horizontalLayout_354->addLayout(horizontalLayout_361);
+
+        Up_freill_max_4 = new QLabel(groupBox_30);
+        Up_freill_max_4->setObjectName(QString::fromUtf8("Up_freill_max_4"));
+        Up_freill_max_4->setFont(font2);
+        Up_freill_max_4->setStyleSheet(QString::fromUtf8("color:rgb(255, 255, 255)"));
+        Up_freill_max_4->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+
+        horizontalLayout_354->addWidget(Up_freill_max_4);
+
+        horizontalLayout_354->setStretch(0, 16);
+        horizontalLayout_354->setStretch(1, 2);
+
+        horizontalLayout_353->addLayout(horizontalLayout_354);
+
+        horizontalLayout_378 = new QHBoxLayout();
+        horizontalLayout_378->setObjectName(QString::fromUtf8("horizontalLayout_378"));
+        pushButton_161 = new QPushButton(groupBox_30);
+        pushButton_161->setObjectName(QString::fromUtf8("pushButton_161"));
+        pushButton_161->setMinimumSize(QSize(25, 25));
+        pushButton_161->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_161->setIcon(icon1);
+
+        horizontalLayout_378->addWidget(pushButton_161);
+
+        spinBox_ill_sun = new QSpinBox(groupBox_30);
+        spinBox_ill_sun->setObjectName(QString::fromUtf8("spinBox_ill_sun"));
+        spinBox_ill_sun->setMinimumSize(QSize(80, 25));
+        spinBox_ill_sun->setAlignment(Qt::AlignCenter);
+        spinBox_ill_sun->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_ill_sun->setMinimum(1);
+        spinBox_ill_sun->setMaximum(255);
+        spinBox_ill_sun->setValue(1);
+
+        horizontalLayout_378->addWidget(spinBox_ill_sun);
+
+        pushButton_162 = new QPushButton(groupBox_30);
+        pushButton_162->setObjectName(QString::fromUtf8("pushButton_162"));
+        pushButton_162->setMinimumSize(QSize(25, 25));
+        pushButton_162->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_162->setIcon(icon2);
+
+        horizontalLayout_378->addWidget(pushButton_162);
+
+
+        horizontalLayout_353->addLayout(horizontalLayout_378);
+
+        horizontalLayout_353->setStretch(0, 5);
+        horizontalLayout_353->setStretch(1, 1);
+
+        verticalLayout_24->addLayout(horizontalLayout_353);
+
+        verticalSpacer_40 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_24->addItem(verticalSpacer_40);
+
+        horizontalLayout_282 = new QHBoxLayout();
+        horizontalLayout_282->setObjectName(QString::fromUtf8("horizontalLayout_282"));
+        pushButton_163 = new QPushButton(groupBox_30);
+        pushButton_163->setObjectName(QString::fromUtf8("pushButton_163"));
+        pushButton_163->setMinimumSize(QSize(120, 30));
+        pushButton_163->setMaximumSize(QSize(95, 16777215));
+        pushButton_163->setFont(font2);
+        pushButton_163->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"    padding: 4px 12px;                 /* \345\206\205\350\276\271\350\267\235 \n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201"
+                        "\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_163->setIcon(icon3);
+        pushButton_163->setCheckable(true);
+
+        horizontalLayout_282->addWidget(pushButton_163);
+
+        pushButton_171 = new QPushButton(groupBox_30);
+        pushButton_171->setObjectName(QString::fromUtf8("pushButton_171"));
+        pushButton_171->setMinimumSize(QSize(120, 30));
+        pushButton_171->setMaximumSize(QSize(95, 16777215));
+        pushButton_171->setFont(font2);
+        pushButton_171->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        pushButton_171->setIcon(icon4);
+        pushButton_171->setCheckable(true);
+
+        horizontalLayout_282->addWidget(pushButton_171);
+
+
+        verticalLayout_24->addLayout(horizontalLayout_282);
+
+        verticalSpacer_16 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_24->addItem(verticalSpacer_16);
+
+        verticalLayout_24->setStretch(3, 1);
+        verticalLayout_24->setStretch(5, 2);
+        verticalLayout_24->setStretch(7, 1);
+
+        horizontalLayout_144->addWidget(groupBox_30);
+
+        horizontalLayout_144->setStretch(0, 1);
+        horizontalLayout_144->setStretch(1, 1);
+        horizontalLayout_144->setStretch(2, 1);
+
+        verticalLayout_52->addLayout(horizontalLayout_144);
+
+        verticalLayout_52->setStretch(0, 2);
+        verticalLayout_52->setStretch(1, 2);
+        tabWidget_Choose->addTab(tab_2, QString());
+        tab_4 = new QWidget();
+        tab_4->setObjectName(QString::fromUtf8("tab_4"));
+        tab_4->setStyleSheet(QString::fromUtf8("/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab {\n"
+"    background: transparent;\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-size: 2px;\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 20px;\n"
+"    min-width: 60ex;\n"
+"    min-height: 8ex;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\351\200\211\344\270\255\346\240\207\347\255\276\351\241\265\347\224\237\346\225\210 */\n"
+"#tabWidget QTabBar::tab:selected {\n"
+"    border: 0px solid;\n"
+"    border-bottom: 6px solid #2196F3;\n"
+"    background: rgb(50, 50, 50);\n"
+"    color: rgb(0, 168, 252);\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\346\234\254\350\272\253\347\224\237\346\225\210 */\n"
+"#tabWidget {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"/* \344\273\205\345\257\271tabWidget_2\347\232\204\346\240\207\347\255\276\346\240\217\347\224\237\346\225\210 */\n"
+"QTabWidget::tab-ba"
+                        "r {\n"
+"    alignment: center;\n"
+"}\n"
+"\n"
+" QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }\n"
+"\n"
+"    /* \345\205\266\344\273\226\346\216\247\344\273\266\347\232\204\345\255\227\344\275\223\345\244\247\345\260\217 */\n"
+"    QLabel, QLineEdit, QPushButton,QComboBox,QTextEdit,QDoubleSpinBox,QSpinBox,QRadioButton{\n"
+" color:white;\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;\n"
+" background-color: rgb(62,62,62);\n"
+"    }\n"
+"\n"
+"\n"
+"\n"
+"/*horizontal \357\274\232\346\260\264\345\271\263QSlider*/\n"
+"QSlider::groove:horizontal {\n"
+"    border: 0px solid #bbb;\n"
+"    height: 20px;\n"
+"}\n"
+"\n"
+"/*1.\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::sub-page:horizontal {\n"
+" /*\346\247\275\351\242\234\350\211\262*/\n"
+"backgrou"
+                        "nd:rgb(18, 142, 237);\n"
+" /*\345\244\226\347\216\257\345\214\272\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:8px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:8px;\n"
+"/*width\345\234\250\350\277\231\351\207\214\346\227\240\346\225\210\357\274\214\344\270\215\345\206\231\345\215\263\345\217\257*/\n"
+"}\n"
+"\n"
+"/*2.\346\234\252\346\273\221\345\212\250\350\277\207\347\232\204\346\247\275\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::add-page:horizontal {\n"
+"/*\346\247\275\351\242\234\350\211\262*/\n"
+"background:rgb(100, 100, 100);\n"
+"/*\345\244\226\347\216\257\345\244\247\345\260\2170px\345\260\261\346\230\257\344\270\215\346\230\276\347\244\272\357\274\214\351\273\230\350\256\244\344\271\237\346\230\2570*/\n"
+"border: 0px solid #777;\n"
+"/*\345\244\226\347\216\257\345\214\272"
+                        "\345\237\237\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 2px;\n"
+" /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:9px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:9px;\n"
+"}\n"
+"\n"
+"/*3.\345\271\263\346\227\266\346\273\221\345\212\250\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal {\n"
+"    /*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"    background: rgb(193,204,208);\n"
+"    /*\346\273\221\345\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"    height: 25px;\n"
+"    /*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"    border: 1px solid rgb(193,204,208);\n"
+"     /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"    border-"
+                        "radius: 2px;\n"
+"     /*\344\270\212\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-top:6px;\n"
+"     /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"    margin-bottom:6px;\n"
+"}\n"
+"\n"
+"/*4.\346\211\213\345\212\250\346\213\211\345\212\250\346\227\266\346\230\276\347\244\272\347\232\204\346\273\221\345\235\227\350\256\276\350\256\241\345\217\202\346\225\260*/\n"
+"QSlider::handle:horizontal:hover {\n"
+"/*\346\273\221\345\235\227\351\242\234\350\211\262*/\n"
+"background: rgb(193,204,208);\n"
+"/*\346\273\221\345\235\227\347\232\204\345\256\275\345\272\246*/\n"
+"    width: 20px;\n"
+"height: 28px;\n"
+"/*\346\273\221\345\235\227\345\244\226\347\216\257\344\270\2721px\357\274\214\345\206\215\345\212\240\351\242\234\350\211\262*/\n"
+"border: 1px solid rgb(193,204,208);\n"
+" /*\346\273\221\345\235\227\345\244\226\347\216\257\345\200\222\345\234\206\350\247\222\345\272\246*/\n"
+"border-radius: 5px;\n"
+" /*\344\270\212\351\201\256\344"
+                        "\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-top:4px;\n"
+" /*\344\270\213\351\201\256\344\275\217\345\214\272\345\237\237\351\253\230\345\272\246*/\n"
+"margin-bottom:4px;\n"
+"}\n"
+"QSlider::groove:horizontal{\n"
+"    Margin:2px 0;\n"
+"}\n"
+""));
+        horizontalLayout_107 = new QHBoxLayout(tab_4);
+        horizontalLayout_107->setObjectName(QString::fromUtf8("horizontalLayout_107"));
+        groupBox_23 = new QGroupBox(tab_4);
+        groupBox_23->setObjectName(QString::fromUtf8("groupBox_23"));
+        groupBox_23->setMaximumSize(QSize(16777215, 16777215));
+        groupBox_23->setFont(font);
+        verticalLayout_47 = new QVBoxLayout(groupBox_23);
+        verticalLayout_47->setObjectName(QString::fromUtf8("verticalLayout_47"));
+        verticalLayout_47->setContentsMargins(-1, 30, -1, -1);
+        line_11 = new QFrame(groupBox_23);
+        line_11->setObjectName(QString::fromUtf8("line_11"));
+        line_11->setMaximumSize(QSize(16777215, 1));
+        line_11->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_11->setFrameShape(QFrame::HLine);
+        line_11->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_47->addWidget(line_11);
+
+        groupBox_25 = new QGroupBox(groupBox_23);
+        groupBox_25->setObjectName(QString::fromUtf8("groupBox_25"));
+        verticalLayout_46 = new QVBoxLayout(groupBox_25);
+        verticalLayout_46->setObjectName(QString::fromUtf8("verticalLayout_46"));
+        verticalLayout_46->setContentsMargins(-1, 30, -1, -1);
+        tableWidget = new QTableWidget(groupBox_25);
+        if (tableWidget->columnCount() < 4)
+            tableWidget->setColumnCount(4);
+        QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
+        tableWidget->setHorizontalHeaderItem(0, __qtablewidgetitem);
+        QTableWidgetItem *__qtablewidgetitem1 = new QTableWidgetItem();
+        tableWidget->setHorizontalHeaderItem(1, __qtablewidgetitem1);
+        QTableWidgetItem *__qtablewidgetitem2 = new QTableWidgetItem();
+        tableWidget->setHorizontalHeaderItem(2, __qtablewidgetitem2);
+        QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
+        tableWidget->setHorizontalHeaderItem(3, __qtablewidgetitem3);
+        tableWidget->setObjectName(QString::fromUtf8("tableWidget"));
+        QFont font3;
+        font3.setFamily(QString::fromUtf8("Arial"));
+        font3.setPointSize(9);
+        font3.setBold(false);
+        font3.setItalic(false);
+        font3.setWeight(9);
+        tableWidget->setFont(font3);
+        tableWidget->setStyleSheet(QString::fromUtf8("QTableWidget {\n"
+"    color: #DCDCDC;\n"
+"    background:rgb(80,80,80);\n"
+"    border: 1px solid #242424;\n"
+"    alternate-background-color: #525252;\n"
+"    gridline-color: #242424;\n"
+"    font: 75 9pt \"Arial\";\n"
+"}\n"
+"\n"
+"QTableWidget::item {\n"
+"    text-align: center;\n"
+"    background: rgb(80,80,80);\n"
+"}\n"
+"\n"
+"QTableWidget::item:hover {\n"
+"    background: #5B5B5B;\n"
+"}\n"
+"\n"
+"QTableWidget::item:selected {\n"
+"    color: rgb(0, 0, 0);\n"
+"    background-color: #0081FF;\n"
+"    border: 1px solid #0066CC; /* \346\267\273\345\212\240\347\273\206\350\276\271\346\241\206\357\274\214\346\233\277\344\273\243\345\216\237\346\235\245\347\232\20425px\350\276\271\346\241\206 */\n"
+"}\n"
+"\n"
+"QHeaderView::section {\n"
+"    text-align: center;\n"
+"    background: #5E5E5E;\n"
+"    padding: 3px;\n"
+"    margin: 0px;\n"
+"    color: #DCDCDC;\n"
+"    border: 1px solid #242424;\n"
+"    border-left-width: 0;\n"
+"}\n"
+"\n"
+" /* \345\236\202\347\233\264\346\273\232\345\212\250\346\235\241\346\240\267\345\274"
+                        "\217 */\n"
+"QScrollBar:vertical {\n"
+"    background: transparent;\n"
+"    width: 4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical:hover {\n"
+"    background: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:vertical,\n"
+"QScrollBar::sub-line:vertical {\n"
+"    height: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:vertical,\n"
+"QScrollBar::sub-page:vertical {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"/* \346\260\264\345\271\263\346\273\232\345\212\250\346\235\241\346\240\267\345\274\217 */\n"
+"QScrollBar:horizontal {\n"
+"    background: transparent;\n"
+"    height:4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-width: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal:hover {\n"
+"    backgroun"
+                        "d: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:horizontal,\n"
+"QScrollBar::sub-line:horizontal {\n"
+"    width: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:horizontal,\n"
+"QScrollBar::sub-page:horizontal {\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QLabel, QLineEdit, QPushButton, QComboBox, QDoubleSpinBox, QSpinBox {\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"}\n"
+"\n"
+"QComboBox {\n"
+"    background-color: rgb(38, 38, 38);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font-size: 14px;\n"
+"}\n"
+"\n"
+"QComboBox:hover {\n"
+"    color: #0081FF;\n"
+"}\n"
+"\n"
+"QComboBox::drop-down {\n"
+"    width: 25px;\n"
+"}\n"
+"\n"
+"QComboBox QAbstractItemView {\n"
+"    border: 1px solid gray;\n"
+"    background-color: rgb(38, 38, 38);\n"
+"    selection-background-color: rgb(38, 38, 38);\n"
+"    selection-color: #0081FF;\n"
+"}"));
+        tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
+        tableWidget->setSelectionBehavior(QAbstractItemView::SelectRows);
+        tableWidget->verticalHeader()->setVisible(false);
+
+        verticalLayout_46->addWidget(tableWidget);
+
+        horizontalLayout_108 = new QHBoxLayout();
+        horizontalLayout_108->setObjectName(QString::fromUtf8("horizontalLayout_108"));
+        label_69 = new QLabel(groupBox_25);
+        label_69->setObjectName(QString::fromUtf8("label_69"));
+
+        horizontalLayout_108->addWidget(label_69);
+
+        pushButton_101 = new QPushButton(groupBox_25);
+        pushButton_101->setObjectName(QString::fromUtf8("pushButton_101"));
+        QSizePolicy sizePolicy1(QSizePolicy::Fixed, QSizePolicy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(pushButton_101->sizePolicy().hasHeightForWidth());
+        pushButton_101->setSizePolicy(sizePolicy1);
+        pushButton_101->setMinimumSize(QSize(25, 25));
+        pushButton_101->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"\n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushBut"
+                        "ton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_101->setIcon(icon1);
+
+        horizontalLayout_108->addWidget(pushButton_101);
+
+        spinBox_13 = new QSpinBox(groupBox_25);
+        spinBox_13->setObjectName(QString::fromUtf8("spinBox_13"));
+        sizePolicy.setHeightForWidth(spinBox_13->sizePolicy().hasHeightForWidth());
+        spinBox_13->setSizePolicy(sizePolicy);
+        spinBox_13->setMinimumSize(QSize(85, 25));
+        spinBox_13->setStyleSheet(QString::fromUtf8("QSpinBox {\n"
+"    /* \345\237\272\347\241\200\346\240\267\345\274\217 */\n"
+"    background-color: rgb(38, 38, 38);  /* \346\267\261\347\201\260\350\211\262\350\203\214\346\231\257 */\n"
+"    color: white;                       /* \347\231\275\350\211\262\346\226\207\346\234\254 */\n"
+"    border: 1px solid rgb(77, 77, 77);  /* \350\276\271\346\241\206 */\n"
+"  \n"
+"    selection-background-color: rgb(76, 132, 255); /* \351\200\211\344\270\255\346\226\207\346\234\254\350\203\214\346\231\257 */\n"
+"    selection-color: white;             /* \351\200\211\344\270\255\346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"        font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;                  /* \345\255\227\345\217\267 */\n"
+"}\n"
+"\n"
+"QSpinBox:hover {\n"
+"    border-color: rgb(100, 100, 100);   /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217\230\346\267\261 */\n"
+"}\n"
+"\n"
+"QSpinBox:focus {\n"
+"    border-color: rgb(100, 100, 100);    /*"
+                        " \347\204\246\347\202\271\347\212\266\346\200\201\344\275\277\347\224\250\350\223\235\350\211\262\350\276\271\346\241\206 */\n"
+"    background-color: rgb(70, 70, 70);  /* \347\204\246\347\202\271\347\212\266\346\200\201\345\276\256\350\260\203\350\203\214\346\231\257 */\n"
+"    outline: none;                      /* \347\247\273\351\231\244\351\273\230\350\256\244\347\204\246\347\202\271\350\231\232\347\272\277 */\n"
+"}"));
+        spinBox_13->setAlignment(Qt::AlignCenter);
+        spinBox_13->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        spinBox_13->setMinimum(1);
+        spinBox_13->setMaximum(999999);
+
+        horizontalLayout_108->addWidget(spinBox_13);
+
+        pushButton_102 = new QPushButton(groupBox_25);
+        pushButton_102->setObjectName(QString::fromUtf8("pushButton_102"));
+        sizePolicy1.setHeightForWidth(pushButton_102->sizePolicy().hasHeightForWidth());
+        pushButton_102->setSizePolicy(sizePolicy1);
+        pushButton_102->setMinimumSize(QSize(25, 25));
+        pushButton_102->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"  \n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushB"
+                        "utton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        pushButton_102->setIcon(icon2);
+
+        horizontalLayout_108->addWidget(pushButton_102);
+
+        horizontalSpacer_134 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_108->addItem(horizontalSpacer_134);
+
+        pushButton_97 = new QPushButton(groupBox_25);
+        pushButton_97->setObjectName(QString::fromUtf8("pushButton_97"));
+        pushButton_97->setMinimumSize(QSize(120, 30));
+        pushButton_97->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        pushButton_97->setIcon(icon);
+
+        horizontalLayout_108->addWidget(pushButton_97);
+
+        horizontalSpacer_136 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_108->addItem(horizontalSpacer_136);
+
+        pushButton_99 = new QPushButton(groupBox_25);
+        pushButton_99->setObjectName(QString::fromUtf8("pushButton_99"));
+        pushButton_99->setMinimumSize(QSize(120, 30));
+        pushButton_99->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"    padding: 4px 12px;                 /* \345\206\205\350\276\271\350\267\235 \n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201"
+                        "\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        QIcon icon5;
+        icon5.addFile(QString::fromUtf8(":/images/resources/\346\222\255\346\224\276w.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_99->setIcon(icon5);
+
+        horizontalLayout_108->addWidget(pushButton_99);
+
+        pushButton_100 = new QPushButton(groupBox_25);
+        pushButton_100->setObjectName(QString::fromUtf8("pushButton_100"));
+        pushButton_100->setMinimumSize(QSize(120, 30));
+        pushButton_100->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        QIcon icon6;
+        icon6.addFile(QString::fromUtf8(":/images/resources/\346\232\202\345\201\2342.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_100->setIcon(icon6);
+
+        horizontalLayout_108->addWidget(pushButton_100);
+
+
+        verticalLayout_46->addLayout(horizontalLayout_108);
+
+
+        verticalLayout_47->addWidget(groupBox_25);
+
+
+        horizontalLayout_107->addWidget(groupBox_23);
+
+        groupBox_24 = new QGroupBox(tab_4);
+        groupBox_24->setObjectName(QString::fromUtf8("groupBox_24"));
+        groupBox_24->setFont(font);
+        groupBox_24->setStyleSheet(QString::fromUtf8(" QGroupBox {\n"
+" 		   background: rgb(62,62,62);\n"
+"border:none;\n"
+"               font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 17px;\n"
+"    }"));
+        verticalLayout_48 = new QVBoxLayout(groupBox_24);
+        verticalLayout_48->setObjectName(QString::fromUtf8("verticalLayout_48"));
+        verticalLayout_48->setContentsMargins(-1, 30, -1, -1);
+        line_12 = new QFrame(groupBox_24);
+        line_12->setObjectName(QString::fromUtf8("line_12"));
+        line_12->setMaximumSize(QSize(16777215, 1));
+        line_12->setStyleSheet(QString::fromUtf8("background:rgb(109,109,109);"));
+        line_12->setFrameShape(QFrame::HLine);
+        line_12->setFrameShadow(QFrame::Sunken);
+
+        verticalLayout_48->addWidget(line_12);
+
+        treeWidget = new QTreeWidget(groupBox_24);
+        treeWidget->setObjectName(QString::fromUtf8("treeWidget"));
+        QFont font4;
+        font4.setFamily(QString::fromUtf8("Segoe UI"));
+        font4.setBold(false);
+        font4.setItalic(false);
+        font4.setWeight(50);
+        treeWidget->setFont(font4);
+        treeWidget->setContextMenuPolicy(Qt::CustomContextMenu);
+        treeWidget->setStyleSheet(QString::fromUtf8("QTreeWidget {\n"
+"    /* \345\237\272\347\241\200\346\240\267\345\274\217 */\n"
+"    background-color: rgb(64, 64, 64);  /* \346\265\205\347\201\260\350\211\262\350\203\214\346\231\257 *            /* \346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"    border: 1px solid rgb(77, 77, 77); /* \347\201\260\350\211\262\350\276\271\346\241\206 */\n"
+" \n"
+"    padding: 6px 8px;                     /* \345\206\205\350\276\271\350\267\235 */\n"
+"    selection-background-color: rgb(76, 132, 255); /* \351\200\211\344\270\255\346\226\207\346\234\254\350\203\214\346\231\257 */\n"
+"    selection-color: white;               /* \351\200\211\344\270\255\346\226\207\346\234\254\351\242\234\350\211\262 */\n"
+"    font-family: \"Segoe UI\", \"Microsoft YaHei\", sans-serif; /* \345\255\227\344\275\223 */\n"
+"    font-size: 14px;                      /* \345\255\227\345\217\267 */\n"
+"}\n"
+"\n"
+"QTreeWidget:hover {\n"
+"    border-color: rgb(100, 100, 100);    /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345"
+                        "\217\230\346\267\261 */\n"
+"}\n"
+"\n"
+"QTreeWidget:focus {\n"
+"   border-color: rgb(100, 100, 100);    /* \346\202\254\345\201\234\346\227\266\350\276\271\346\241\206\345\217\230\346\267\261 */\n"
+"\n"
+"    outline: none;                       /* \347\247\273\351\231\244\351\273\230\350\256\244\347\204\246\347\202\271\350\231\232\347\272\277 */\n"
+"}\n"
+"\n"
+"\n"
+" /* \345\236\202\347\233\264\346\273\232\345\212\250\346\235\241\346\240\267\345\274\217 */\n"
+"QScrollBar:vertical {\n"
+"    background: transparent;\n"
+"    width: 4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-height: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:vertical:hover {\n"
+"    background: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:vertical,\n"
+"QScrollBar::sub-line:vertical {\n"
+"    height: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:vertical,\n"
+"QScrollBar::sub-page:vertical {\n"
+"    ba"
+                        "ckground: transparent;\n"
+"}\n"
+"\n"
+"/* \346\260\264\345\271\263\346\273\232\345\212\250\346\235\241\346\240\267\345\274\217 */\n"
+"QScrollBar:horizontal {\n"
+"    background: transparent;\n"
+"    height:4px;\n"
+"    margin: 0px 0px 0px 0px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal {\n"
+"    background: rgb(0, 168, 252);\n"
+"    border-radius: 2px;\n"
+"    min-width: 20px;\n"
+"}\n"
+"\n"
+"QScrollBar::handle:horizontal:hover {\n"
+"    background: rgb(0, 140, 220);\n"
+"}\n"
+"\n"
+"QScrollBar::add-line:horizontal,\n"
+"QScrollBar::sub-line:horizontal {\n"
+"    width: 0px;\n"
+"    background: transparent;\n"
+"}\n"
+"\n"
+"QScrollBar::add-page:horizontal,\n"
+"QScrollBar::sub-page:horizontal {\n"
+"    background: transparent;\n"
+"}"));
+        treeWidget->header()->setVisible(false);
+
+        verticalLayout_48->addWidget(treeWidget);
+
+        horizontalLayout_106 = new QHBoxLayout();
+        horizontalLayout_106->setObjectName(QString::fromUtf8("horizontalLayout_106"));
+        horizontalSpacer_132 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_106->addItem(horizontalSpacer_132);
+
+        pushButton_96 = new QPushButton(groupBox_24);
+        pushButton_96->setObjectName(QString::fromUtf8("pushButton_96"));
+        pushButton_96->setMinimumSize(QSize(120, 30));
+        pushButton_96->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"    color: white;                      /* \346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    background-color:#333333;      /* \350\203\214\346\231\257\350\211\262\357\274\232RGB(6,159,239) */\n"
+"    border: 1px solid transparent;     /* \351\273\230\350\256\244\351\200\217\346\230\216\350\276\271\346\241\206 */\n"
+"                 /* \345\234\206\350\247\222 */\n"
+"    font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"    font-size: 14px;\n"
+"    padding: 4px 12px;                 /* \345\206\205\350\276\271\350\267\235 \n"
+"    transition: background-color 0.2s, border-color 0.2s;  /* \345\271\263\346\273\221\350\277\207\346\270\241\346\225\210\346\236\234 */\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    color: white;                      /* \346\202\254\345\201\234\346\227\266\346\226\207\345\255\227\351\242\234\350\211\262\344\270\215\345\217\230 */\n"
+"    background-color:#0081FF;         /* \346\202\254\345\201\234\350\203\214        /* \346\202\254\345\201"
+                        "\234\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #004DB3;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+"\n"
+"QPushButton:disabled {\n"
+"    background-color: gray;            /* \347\246\201\347\224\250\350\203\214\346\231\257\350\211\262 */\n"
+"    color: white;                      /* \347\246\201\347\224\250\346\226\207\345\255\227\351\242\234\350\211\262 */\n"
+"    border: 1px solid darkgray;        /* \347\246\201\347\224\250\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    cursor: not-allowed;               /* \347\246\201\347\224\250\351\274\240\346\240\207\346\240\267\345\274\217 */\n"
+"}\n"
+""));
+        QIcon icon7;
+        icon7.addFile(QString::fromUtf8(":/images/resources/\346\267\273\345\212\2402.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_96->setIcon(icon7);
+
+        horizontalLayout_106->addWidget(pushButton_96);
+
+        pushButton_103 = new QPushButton(groupBox_24);
+        pushButton_103->setObjectName(QString::fromUtf8("pushButton_103"));
+        pushButton_103->setMinimumSize(QSize(120, 30));
+        pushButton_103->setStyleSheet(QString::fromUtf8(" QPushButton\n"
+" {\n"
+"        color:white;\n"
+"         background:rgb(51,51,51);\n"
+"        border-style: solid;\n"
+"       font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"          font-size: 14px;\n"
+"       padding: 4px 12px;\n"
+"        border-radius:0px;\n"
+" }\n"
+"\n"
+" QPushButton:hover\n"
+" {\n"
+"        color:white;\n"
+"        background:#FE3333;\n"
+"        border-style: solid;\n"
+"\n"
+"        border-color:white;\n"
+"        border-radius:0px;\n"
+" }\n"
+"QPushButton:pressed {\n"
+"    background-color: #B3121D;         /* \346\214\211\344\270\213\346\227\266\347\232\204\350\203\214\346\231\257\350\211\262\357\274\232\346\267\261120% */\n"
+"          /* \346\214\211\344\270\213\346\227\266\350\276\271\346\241\206\351\242\234\350\211\262 */\n"
+"    transform: translateY(1px);        /* \346\214\211\344\270\213\346\227\266\350\275\273\345\276\256\344\270\213\347\247\273 */\n"
+"}\n"
+""));
+        pushButton_103->setIcon(icon);
+
+        horizontalLayout_106->addWidget(pushButton_103);
+
+
+        verticalLayout_48->addLayout(horizontalLayout_106);
+
+
+        horizontalLayout_107->addWidget(groupBox_24);
+
+        horizontalLayout_107->setStretch(0, 4);
+        horizontalLayout_107->setStretch(1, 2);
+        tabWidget_Choose->addTab(tab_4, QString());
+
+        horizontalLayout_34->addWidget(tabWidget_Choose);
+
+        horizontalLayout_34->setStretch(0, 1);
+        horizontalLayout_34->setStretch(1, 5);
+        MainWindow->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindow);
+        menubar->setObjectName(QString::fromUtf8("menubar"));
+        menubar->setGeometry(QRect(0, 0, 1242, 23));
+        QSizePolicy sizePolicy2(QSizePolicy::MinimumExpanding, QSizePolicy::MinimumExpanding);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(menubar->sizePolicy().hasHeightForWidth());
+        menubar->setSizePolicy(sizePolicy2);
+        menubar->setMinimumSize(QSize(0, 0));
+        menubar->setMaximumSize(QSize(16777215, 16777215));
+        menubar->setLayoutDirection(Qt::LeftToRight);
+        menubar->setDefaultUp(false);
+        menu = new QMenu(menubar);
+        menu->setObjectName(QString::fromUtf8("menu"));
+        menu_2 = new QMenu(menubar);
+        menu_2->setObjectName(QString::fromUtf8("menu_2"));
+        language = new QMenu(menu_2);
+        language->setObjectName(QString::fromUtf8("language"));
+        menu_4 = new QMenu(menubar);
+        menu_4->setObjectName(QString::fromUtf8("menu_4"));
+        MainWindow->setMenuBar(menubar);
+        statusbar = new QStatusBar(MainWindow);
+        statusbar->setObjectName(QString::fromUtf8("statusbar"));
+        QSizePolicy sizePolicy3(QSizePolicy::Preferred, QSizePolicy::Fixed);
+        sizePolicy3.setHorizontalStretch(0);
+        sizePolicy3.setVerticalStretch(0);
+        sizePolicy3.setHeightForWidth(statusbar->sizePolicy().hasHeightForWidth());
+        statusbar->setSizePolicy(sizePolicy3);
+        statusbar->setMinimumSize(QSize(0, 26));
+        statusbar->setMaximumSize(QSize(16777215, 26));
+        statusbar->setSizeGripEnabled(false);
+        MainWindow->setStatusBar(statusbar);
+
+        menubar->addAction(menu->menuAction());
+        menubar->addAction(menu_2->menuAction());
+        menubar->addAction(menu_4->menuAction());
+        menu->addAction(reconnection);
+        menu->addAction(disconnection);
+        menu->addAction(quit);
+        menu_2->addAction(language->menuAction());
+        language->addAction(chinese);
+        language->addAction(english);
+        menu_4->addAction(manual);
+        menu_4->addAction(about);
+
+        retranslateUi(MainWindow);
+
+        tabWidget_Choose->setCurrentIndex(0);
+        tabWidget_11->setCurrentIndex(1);
+        tabWidget_9->setCurrentIndex(1);
+
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
+        reconnection->setText(QApplication::translate("MainWindow", "Reconnection", nullptr));
+#ifndef QT_NO_SHORTCUT
+        reconnection->setShortcut(QApplication::translate("MainWindow", "Ctrl+R", nullptr));
+#endif // QT_NO_SHORTCUT
+        quit->setText(QApplication::translate("MainWindow", "Exit", nullptr));
+#ifndef QT_NO_SHORTCUT
+        quit->setShortcut(QApplication::translate("MainWindow", "Ctrl+Q", nullptr));
+#endif // QT_NO_SHORTCUT
+        chinese->setText(QApplication::translate("MainWindow", "\344\270\255\346\226\207", nullptr));
+#ifndef QT_NO_SHORTCUT
+        chinese->setShortcut(QApplication::translate("MainWindow", "Ctrl+C", nullptr));
+#endif // QT_NO_SHORTCUT
+        english->setText(QApplication::translate("MainWindow", "\350\213\261\346\226\207", nullptr));
+#ifndef QT_NO_SHORTCUT
+        english->setShortcut(QApplication::translate("MainWindow", "Ctrl+E", nullptr));
+#endif // QT_NO_SHORTCUT
+        manual->setText(QApplication::translate("MainWindow", "Manual", nullptr));
+#ifndef QT_NO_SHORTCUT
+        manual->setShortcut(QApplication::translate("MainWindow", "Ctrl+M", nullptr));
+#endif // QT_NO_SHORTCUT
+        about->setText(QApplication::translate("MainWindow", "About", nullptr));
+#ifndef QT_NO_SHORTCUT
+        about->setShortcut(QApplication::translate("MainWindow", "Ctrl+A", nullptr));
+#endif // QT_NO_SHORTCUT
+        disconnection->setText(QApplication::translate("MainWindow", "Disconnection", nullptr));
+#ifndef QT_NO_SHORTCUT
+        disconnection->setShortcut(QApplication::translate("MainWindow", "Ctrl+D", nullptr));
+#endif // QT_NO_SHORTCUT
+        groupBox->setTitle(QApplication::translate("MainWindow", "\350\277\236\346\216\245", nullptr));
+        label->setText(QApplication::translate("MainWindow", "\350\256\276\345\244\207\350\277\236\346\216\245", nullptr));
+#ifndef QT_NO_TOOLTIP
+        pushButton->setToolTip(QApplication::translate("MainWindow", "\350\256\276\345\244\207\350\277\236\346\216\245", nullptr));
+#endif // QT_NO_TOOLTIP
+        pushButton->setText(QString());
+        groupBox_5->setTitle(QApplication::translate("MainWindow", "\347\212\266\346\200\201\344\277\241\346\201\257", nullptr));
+        pushButton_105->setText(QApplication::translate("MainWindow", "\346\270\205\347\251\272", nullptr));
+        groupBox_2->setTitle(QApplication::translate("MainWindow", "\347\212\266\346\200\201\344\277\241\346\201\257", nullptr));
+        pushButton_104->setText(QApplication::translate("MainWindow", "\346\270\205\347\251\272", nullptr));
+        groupBox_3->setTitle(QApplication::translate("MainWindow", "\350\275\246\347\201\257\346\216\247\345\210\266", nullptr));
+        groupBox_33->setTitle(QApplication::translate("MainWindow", " \350\241\245\345\205\211\345\205\211\346\272\220\346\216\247\345\210\266", nullptr));
+        label_63->setText(QApplication::translate("MainWindow", "\345\205\211\346\272\220\351\200\211\346\213\251", nullptr));
+        comboBox_5->setItemText(0, QApplication::translate("MainWindow", "ALL", nullptr));
+        comboBox_5->setItemText(1, QApplication::translate("MainWindow", "L", nullptr));
+        comboBox_5->setItemText(2, QApplication::translate("MainWindow", "R", nullptr));
+
+        groupBox_37->setTitle(QString());
+        groupBox_Downcct->setTitle(QString());
+        label_160->setText(QApplication::translate("MainWindow", "\350\211\262\346\270\251(K)", nullptr));
+        Downcctmin->setText(QApplication::translate("MainWindow", "2300", nullptr));
+        Downcctmax->setText(QApplication::translate("MainWindow", "10000", nullptr));
+        pushButton_150->setText(QString());
+        pushButton_151->setText(QString());
+        groupBox_Downill->setTitle(QString());
+        label_161->setText(QApplication::translate("MainWindow", "\347\205\247\345\272\246(step)", nullptr));
+        Downillmin->setText(QApplication::translate("MainWindow", "0", nullptr));
+        Downillmax->setText(QApplication::translate("MainWindow", "9999", nullptr));
+        pushButton_152->setText(QString());
+        pushButton_153->setText(QString());
+        tabWidget_11->setTabText(tabWidget_11->indexOf(tab_25), QApplication::translate("MainWindow", "\346\250\241\345\274\2171", nullptr));
+        groupBox_55->setTitle(QApplication::translate("MainWindow", "GroupBox", nullptr));
+        groupBox_Downnm1->setTitle(QString());
+        label_162->setText(QApplication::translate("MainWindow", "850nm(st)", nullptr));
+        Down_nm1_min->setText(QApplication::translate("MainWindow", "0", nullptr));
+        Down_nm1_max->setText(QApplication::translate("MainWindow", "2000", nullptr));
+        pushButton_206->setText(QString());
+        pushButton_207->setText(QString());
+        groupBox_Downnm2->setTitle(QString());
+        label_192->setText(QApplication::translate("MainWindow", "940nm(st)", nullptr));
+        Down_nm2_min->setText(QApplication::translate("MainWindow", "0", nullptr));
+        Down_nm2_max->setText(QApplication::translate("MainWindow", "2000", nullptr));
+        pushButton_208->setText(QString());
+        pushButton_209->setText(QString());
+        tabWidget_11->setTabText(tabWidget_11->indexOf(tab_26), QApplication::translate("MainWindow", "  \346\250\241\345\274\2172", nullptr));
+        pushButton_155->setText(QApplication::translate("MainWindow", "\347\241\256\345\256\232", nullptr));
+        pushButton_164->setText(QApplication::translate("MainWindow", "\345\205\263\351\227\255", nullptr));
+        groupBox_32->setTitle(QApplication::translate("MainWindow", "\351\200\217\345\260\204\345\205\211\346\272\220\346\216\247\345\210\266", nullptr));
+        label_62->setText(QApplication::translate("MainWindow", "\345\205\211\346\272\220\351\200\211\346\213\251", nullptr));
+        comboBox->setItemText(0, QApplication::translate("MainWindow", "ALL", nullptr));
+        comboBox->setItemText(1, QApplication::translate("MainWindow", "L", nullptr));
+        comboBox->setItemText(2, QApplication::translate("MainWindow", "R", nullptr));
+
+        groupBox_28->setTitle(QString());
+        groupBox_Upcct_2->setTitle(QString());
+        label_150->setText(QApplication::translate("MainWindow", "\350\211\262\346\270\251(K)", nullptr));
+        Upcctmin_2->setText(QApplication::translate("MainWindow", "2300", nullptr));
+        Upcctmax_2->setText(QApplication::translate("MainWindow", "10000", nullptr));
+        pushButton_134->setText(QString());
+        pushButton_135->setText(QString());
+        groupBox_Upill_2->setTitle(QString());
+        label_155->setText(QApplication::translate("MainWindow", "\347\205\247\345\272\246(step)", nullptr));
+        Upillmin_2->setText(QApplication::translate("MainWindow", "0", nullptr));
+        Upillmax_2->setText(QApplication::translate("MainWindow", "60000", nullptr));
+        pushButton_136->setText(QString());
+        pushButton_137->setText(QString());
+        tabWidget_9->setTabText(tabWidget_9->indexOf(tab_20), QApplication::translate("MainWindow", " \346\250\241\345\274\2171", nullptr));
+        groupBox_40->setTitle(QString());
+        groupBox_Upduty_5->setTitle(QString());
+        label_194->setText(QApplication::translate("MainWindow", "\351\242\221\347\216\207(Hz)", nullptr));
+        Up_fre_min_2->setText(QApplication::translate("MainWindow", "0", nullptr));
+        Up_fre_max_2->setText(QApplication::translate("MainWindow", "1000", nullptr));
+        pushButton_167->setText(QString());
+        pushButton_168->setText(QString());
+        label_217->setText(QApplication::translate("MainWindow", "\345\215\240\347\251\272\346\257\224", nullptr));
+        Up_duty_min_2->setText(QApplication::translate("MainWindow", "1", nullptr));
+        Up_duty_max_2->setText(QApplication::translate("MainWindow", "99%", nullptr));
+        pushButton_185->setText(QString());
+        pushButton_192->setText(QString());
+        label_157->setText(QApplication::translate("MainWindow", "\347\205\247\345\272\246(step)", nullptr));
+        Up_freill_min_2->setText(QApplication::translate("MainWindow", "0", nullptr));
+        Up_freill_max_2->setText(QApplication::translate("MainWindow", "60000", nullptr));
+        pushButton_138->setText(QString());
+        pushButton_139->setText(QString());
+        tabWidget_9->setTabText(tabWidget_9->indexOf(tab_21), QApplication::translate("MainWindow", "\346\250\241\345\274\2172", nullptr));
+        pushButton_140->setText(QApplication::translate("MainWindow", "\347\241\256\345\256\232", nullptr));
+        pushButton_141->setText(QApplication::translate("MainWindow", "\345\205\263\351\227\255", nullptr));
+        groupBox_30->setTitle(QApplication::translate("MainWindow", "\345\244\252\351\230\263\347\201\257\346\216\247\345\210\266", nullptr));
+        label_preheat->setText(QString());
+        label_159->setText(QApplication::translate("MainWindow", "\347\205\247\345\272\246(step)", nullptr));
+        Up_freill_min_4->setText(QApplication::translate("MainWindow", "1", nullptr));
+        Up_freill_max_4->setText(QApplication::translate("MainWindow", "255", nullptr));
+        pushButton_161->setText(QString());
+        pushButton_162->setText(QString());
+        pushButton_163->setText(QApplication::translate("MainWindow", "\347\241\256\345\256\232", nullptr));
+        pushButton_171->setText(QApplication::translate("MainWindow", "\345\205\263\351\227\255", nullptr));
+        tabWidget_Choose->setTabText(tabWidget_Choose->indexOf(tab_2), QApplication::translate("MainWindow", "\345\205\211\346\272\220\346\216\247\345\210\266", nullptr));
+        groupBox_23->setTitle(QApplication::translate("MainWindow", "\346\227\266\345\272\217\350\256\276\347\275\256", nullptr));
+        groupBox_25->setTitle(QString());
+        QTableWidgetItem *___qtablewidgetitem = tableWidget->horizontalHeaderItem(0);
+        ___qtablewidgetitem->setText(QApplication::translate("MainWindow", "\345\272\217\345\217\267", nullptr));
+        QTableWidgetItem *___qtablewidgetitem1 = tableWidget->horizontalHeaderItem(1);
+        ___qtablewidgetitem1->setText(QApplication::translate("MainWindow", "\345\234\272\346\231\257\346\226\207\344\273\266\345\244\271", nullptr));
+        QTableWidgetItem *___qtablewidgetitem2 = tableWidget->horizontalHeaderItem(2);
+        ___qtablewidgetitem2->setText(QApplication::translate("MainWindow", "\345\234\272\346\231\257\346\226\207\344\273\266", nullptr));
+        QTableWidgetItem *___qtablewidgetitem3 = tableWidget->horizontalHeaderItem(3);
+        ___qtablewidgetitem3->setText(QApplication::translate("MainWindow", "\346\223\215\344\275\234", nullptr));
+        label_69->setText(QApplication::translate("MainWindow", "\345\276\252\347\216\257\346\254\241\346\225\260", nullptr));
+        pushButton_101->setText(QString());
+        pushButton_102->setText(QString());
+        pushButton_97->setText(QApplication::translate("MainWindow", "\346\270\205\347\251\272", nullptr));
+        pushButton_99->setText(QApplication::translate("MainWindow", "\345\274\200\345\247\213", nullptr));
+        pushButton_100->setText(QApplication::translate("MainWindow", "\345\201\234\346\255\242", nullptr));
+        groupBox_24->setTitle(QApplication::translate("MainWindow", "\346\227\266\345\272\217\346\226\207\344\273\266", nullptr));
+        QTreeWidgetItem *___qtreewidgetitem = treeWidget->headerItem();
+        ___qtreewidgetitem->setText(0, QApplication::translate("MainWindow", "\347\244\272\344\276\213", nullptr));
+        pushButton_96->setText(QApplication::translate("MainWindow", "\346\267\273\345\212\240", nullptr));
+        pushButton_103->setText(QApplication::translate("MainWindow", "\345\210\240\351\231\244", nullptr));
+        tabWidget_Choose->setTabText(tabWidget_Choose->indexOf(tab_4), QApplication::translate("MainWindow", "\346\227\266\345\272\217\346\216\247\345\210\266", nullptr));
+        menu->setTitle(QApplication::translate("MainWindow", "File", nullptr));
+        menu_2->setTitle(QApplication::translate("MainWindow", "Setting", nullptr));
+        language->setTitle(QApplication::translate("MainWindow", "\350\257\255\350\250\200", nullptr));
+        menu_4->setTitle(QApplication::translate("MainWindow", "Help", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H

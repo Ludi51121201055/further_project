@@ -1,0 +1,308 @@
+/********************************************************************************
+** Form generated from reading UI file 'titlebar.ui'
+**
+** Created by: Qt User Interface Compiler version 5.12.8
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_TITLEBAR_H
+#define UI_TITLEBAR_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QIcon>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QSpacerItem>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_TitleBar
+{
+public:
+    QVBoxLayout *verticalLayout;
+    QWidget *widget_2;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *gap;
+    QLabel *icon;
+    QLabel *windowtitle;
+    QSpacerItem *horizontalSpacer_2;
+    QHBoxLayout *horizontalLayout_9;
+    QPushButton *minimum;
+    QPushButton *maximum;
+    QPushButton *close;
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout_11;
+    QHBoxLayout *horizontalLayout_8;
+    QHBoxLayout *horizontalLayout_4;
+    QPushButton *file;
+    QHBoxLayout *horizontalLayout_6;
+    QHBoxLayout *horizontalLayout_3;
+    QPushButton *setting;
+    QHBoxLayout *horizontalLayout_10;
+    QHBoxLayout *horizontalLayout_5;
+    QPushButton *help;
+    QSpacerItem *horizontalSpacer;
+    QHBoxLayout *horizontalLayout;
+    QPushButton *translation;
+    QPushButton *dropdownbox;
+
+    void setupUi(QWidget *TitleBar)
+    {
+        if (TitleBar->objectName().isEmpty())
+            TitleBar->setObjectName(QString::fromUtf8("TitleBar"));
+        TitleBar->resize(1342, 52);
+        TitleBar->setMinimumSize(QSize(0, 52));
+        TitleBar->setMaximumSize(QSize(16777215, 52));
+        TitleBar->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);"));
+        verticalLayout = new QVBoxLayout(TitleBar);
+        verticalLayout->setSpacing(0);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        widget_2 = new QWidget(TitleBar);
+        widget_2->setObjectName(QString::fromUtf8("widget_2"));
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(widget_2->sizePolicy().hasHeightForWidth());
+        widget_2->setSizePolicy(sizePolicy);
+        widget_2->setMinimumSize(QSize(0, 24));
+        widget_2->setMaximumSize(QSize(166667, 24));
+        horizontalLayout_2 = new QHBoxLayout(widget_2);
+        horizontalLayout_2->setSpacing(0);
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
+        gap = new QLabel(widget_2);
+        gap->setObjectName(QString::fromUtf8("gap"));
+        QSizePolicy sizePolicy1(QSizePolicy::Fixed, QSizePolicy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(gap->sizePolicy().hasHeightForWidth());
+        gap->setSizePolicy(sizePolicy1);
+        gap->setMinimumSize(QSize(20, 20));
+        gap->setMaximumSize(QSize(20, 20));
+
+        horizontalLayout_2->addWidget(gap);
+
+        icon = new QLabel(widget_2);
+        icon->setObjectName(QString::fromUtf8("icon"));
+        icon->setMinimumSize(QSize(16, 16));
+        icon->setMaximumSize(QSize(16, 16));
+        icon->setPixmap(QPixmap(QString::fromUtf8(":/images/resources/example.ico")));
+        icon->setScaledContents(true);
+        icon->setAlignment(Qt::AlignCenter);
+        icon->setMargin(0);
+
+        horizontalLayout_2->addWidget(icon);
+
+        windowtitle = new QLabel(widget_2);
+        windowtitle->setObjectName(QString::fromUtf8("windowtitle"));
+        windowtitle->setStyleSheet(QString::fromUtf8(" font-family: \"Source Han Sans\", \"Microsoft YaHei\", \"SimHei\";\n"
+"        font-size: 14px;"));
+
+        horizontalLayout_2->addWidget(windowtitle);
+
+        horizontalSpacer_2 = new QSpacerItem(941, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer_2);
+
+        horizontalLayout_9 = new QHBoxLayout();
+        horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
+        horizontalLayout_9->setContentsMargins(-1, -1, 50, -1);
+
+        horizontalLayout_2->addLayout(horizontalLayout_9);
+
+        minimum = new QPushButton(widget_2);
+        minimum->setObjectName(QString::fromUtf8("minimum"));
+        minimum->setEnabled(true);
+        sizePolicy1.setHeightForWidth(minimum->sizePolicy().hasHeightForWidth());
+        minimum->setSizePolicy(sizePolicy1);
+        minimum->setMinimumSize(QSize(52, 25));
+        minimum->setMaximumSize(QSize(52, 25));
+        minimum->setStyleSheet(QString::fromUtf8(""));
+        minimum->setIconSize(QSize(17, 17));
+
+        horizontalLayout_2->addWidget(minimum);
+
+        maximum = new QPushButton(widget_2);
+        maximum->setObjectName(QString::fromUtf8("maximum"));
+        maximum->setEnabled(true);
+        sizePolicy1.setHeightForWidth(maximum->sizePolicy().hasHeightForWidth());
+        maximum->setSizePolicy(sizePolicy1);
+        maximum->setMinimumSize(QSize(52, 25));
+        maximum->setMaximumSize(QSize(52, 25));
+        maximum->setStyleSheet(QString::fromUtf8(""));
+        maximum->setIconSize(QSize(17, 17));
+
+        horizontalLayout_2->addWidget(maximum);
+
+        close = new QPushButton(widget_2);
+        close->setObjectName(QString::fromUtf8("close"));
+        close->setEnabled(true);
+        sizePolicy1.setHeightForWidth(close->sizePolicy().hasHeightForWidth());
+        close->setSizePolicy(sizePolicy1);
+        close->setMinimumSize(QSize(52, 25));
+        close->setMaximumSize(QSize(52, 25));
+        close->setIconSize(QSize(17, 17));
+
+        horizontalLayout_2->addWidget(close);
+
+
+        verticalLayout->addWidget(widget_2);
+
+        widget = new QWidget(TitleBar);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        sizePolicy.setHeightForWidth(widget->sizePolicy().hasHeightForWidth());
+        widget->setSizePolicy(sizePolicy);
+        widget->setMinimumSize(QSize(0, 26));
+        widget->setMaximumSize(QSize(16777215, 26));
+        widget->setStyleSheet(QString::fromUtf8("background-color: rgb(76, 76, 76);"));
+        horizontalLayout_11 = new QHBoxLayout(widget);
+        horizontalLayout_11->setObjectName(QString::fromUtf8("horizontalLayout_11"));
+        horizontalLayout_11->setContentsMargins(0, 0, 0, 0);
+        horizontalLayout_8 = new QHBoxLayout();
+        horizontalLayout_8->setObjectName(QString::fromUtf8("horizontalLayout_8"));
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setSpacing(10);
+        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
+        horizontalLayout_4->setContentsMargins(-1, -1, 0, -1);
+        file = new QPushButton(widget);
+        file->setObjectName(QString::fromUtf8("file"));
+        file->setMinimumSize(QSize(60, 26));
+        file->setMaximumSize(QSize(60, 26));
+
+        horizontalLayout_4->addWidget(file);
+
+
+        horizontalLayout_8->addLayout(horizontalLayout_4);
+
+
+        horizontalLayout_11->addLayout(horizontalLayout_8);
+
+        horizontalLayout_6 = new QHBoxLayout();
+        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setSpacing(10);
+        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
+        horizontalLayout_3->setContentsMargins(-1, -1, 0, -1);
+        setting = new QPushButton(widget);
+        setting->setObjectName(QString::fromUtf8("setting"));
+        setting->setMinimumSize(QSize(60, 26));
+        setting->setMaximumSize(QSize(60, 26));
+        QFont font;
+        font.setFamily(QString::fromUtf8("Microsoft YaHei"));
+        setting->setFont(font);
+        setting->setCheckable(false);
+        setting->setChecked(false);
+
+        horizontalLayout_3->addWidget(setting);
+
+
+        horizontalLayout_6->addLayout(horizontalLayout_3);
+
+
+        horizontalLayout_11->addLayout(horizontalLayout_6);
+
+        horizontalLayout_10 = new QHBoxLayout();
+        horizontalLayout_10->setSpacing(0);
+        horizontalLayout_10->setObjectName(QString::fromUtf8("horizontalLayout_10"));
+        horizontalLayout_5 = new QHBoxLayout();
+        horizontalLayout_5->setSpacing(10);
+        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
+        horizontalLayout_5->setContentsMargins(-1, -1, 0, -1);
+        help = new QPushButton(widget);
+        help->setObjectName(QString::fromUtf8("help"));
+        help->setMinimumSize(QSize(60, 26));
+        help->setMaximumSize(QSize(60, 26));
+
+        horizontalLayout_5->addWidget(help);
+
+
+        horizontalLayout_10->addLayout(horizontalLayout_5);
+
+
+        horizontalLayout_11->addLayout(horizontalLayout_10);
+
+        horizontalSpacer = new QSpacerItem(909, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_11->addItem(horizontalSpacer);
+
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setSpacing(0);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setContentsMargins(-1, -1, 30, 0);
+        translation = new QPushButton(widget);
+        translation->setObjectName(QString::fromUtf8("translation"));
+        QSizePolicy sizePolicy2(QSizePolicy::Preferred, QSizePolicy::Minimum);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(translation->sizePolicy().hasHeightForWidth());
+        translation->setSizePolicy(sizePolicy2);
+        translation->setMinimumSize(QSize(100, 26));
+        translation->setMaximumSize(QSize(100, 26));
+        QFont font1;
+        font1.setKerning(true);
+        translation->setFont(font1);
+        translation->setAutoDefault(false);
+        translation->setFlat(false);
+
+        horizontalLayout->addWidget(translation);
+
+        dropdownbox = new QPushButton(widget);
+        dropdownbox->setObjectName(QString::fromUtf8("dropdownbox"));
+        sizePolicy1.setHeightForWidth(dropdownbox->sizePolicy().hasHeightForWidth());
+        dropdownbox->setSizePolicy(sizePolicy1);
+        dropdownbox->setMinimumSize(QSize(20, 25));
+        dropdownbox->setMaximumSize(QSize(15, 25));
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/images/resources/\344\270\213.png"), QSize(), QIcon::Normal, QIcon::Off);
+        dropdownbox->setIcon(icon1);
+        dropdownbox->setIconSize(QSize(15, 15));
+
+        horizontalLayout->addWidget(dropdownbox);
+
+
+        horizontalLayout_11->addLayout(horizontalLayout);
+
+
+        verticalLayout->addWidget(widget);
+
+
+        retranslateUi(TitleBar);
+
+        translation->setDefault(false);
+
+
+        QMetaObject::connectSlotsByName(TitleBar);
+    } // setupUi
+
+    void retranslateUi(QWidget *TitleBar)
+    {
+        TitleBar->setWindowTitle(QApplication::translate("TitleBar", "Form", nullptr));
+        gap->setText(QString());
+        icon->setText(QString());
+        windowtitle->setText(QApplication::translate("TitleBar", " Sample Program V2.1", nullptr));
+        minimum->setText(QString());
+        maximum->setText(QString());
+        close->setText(QString());
+        file->setText(QApplication::translate("TitleBar", "\346\226\207\344\273\266", nullptr));
+        setting->setText(QApplication::translate("TitleBar", "\350\256\276\347\275\256", nullptr));
+        help->setText(QApplication::translate("TitleBar", "\345\270\256\345\212\251", nullptr));
+        translation->setText(QString());
+        dropdownbox->setText(QString());
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class TitleBar: public Ui_TitleBar {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_TITLEBAR_H
