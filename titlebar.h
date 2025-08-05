@@ -53,7 +53,7 @@ protected:
 
 
 
-    用于测试使用
+    第三次测试使用
     virtual void mouseDoubleClickEvent(QMouseEvent *event);
 
     /**
